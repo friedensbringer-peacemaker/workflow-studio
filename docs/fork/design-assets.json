@@ -1,0 +1,146 @@
+{
+  "date": "2026-11-17",
+  "provenance": "DESIGN.md",
+  "assets": [
+    {
+      "path": "src/assets/icons/phosphor/arrow-down.svg",
+      "bytes": 234,
+      "sha256": "f05bddad29e8f49bbca166729a48fa1c2289cc51cbcaf5582f8fbe348cc2ce11"
+    },
+    {
+      "path": "src/assets/icons/phosphor/arrow-u-up-left.svg",
+      "bytes": 299,
+      "sha256": "5e9d76554510221778f5fef0d182cbcef2b6af93db81921e8b8093bdc90e53b8"
+    },
+    {
+      "path": "src/assets/icons/phosphor/arrow-up.svg",
+      "bytes": 253,
+      "sha256": "c06d325e0f16034a32df2b60379dfa65598b0d2572ff5e7652eb2d1f498ee39f"
+    },
+    {
+      "path": "src/assets/icons/phosphor/arrows-clockwise.svg",
+      "bytes": 560,
+      "sha256": "46a045b04fdd2948cd0c16309ce2f50278e581b8747ee86ce9d87dc2b5fc02ce"
+    },
+    {
+      "path": "src/assets/icons/phosphor/caret-right.svg",
+      "bytes": 215,
+      "sha256": "9a98fc23239b7a368f52eca8c1dd400808f1812a3ec1b6b7234c74f48e8ba428"
+    },
+    {
+      "path": "src/assets/icons/phosphor/check-circle.svg",
+      "bytes": 335,
+      "sha256": "6bc3ef79a187b218b3bb925cf09bcb8ac8da687611fec45de24dd5c86d20b3f9"
+    },
+    {
+      "path": "src/assets/icons/phosphor/download-simple.svg",
+      "bytes": 311,
+      "sha256": "dea5e244ee9cc9f78a9832b690f124d86cf71bc33b7a3ec809d53ecc3ba6b4a2"
+    },
+    {
+      "path": "src/assets/icons/phosphor/floppy-disk.svg",
+      "bytes": 516,
+      "sha256": "12abe10b1aa13dd12cdb1f43c8bbed2b856dc18941fab7c7a2a5ad2d5c4cfa3d"
+    },
+    {
+      "path": "src/assets/icons/phosphor/flow-arrow.svg",
+      "bytes": 409,
+      "sha256": "c6c91882026d6b912fafde680076a6613465d1aeb1f9b865964e6176cddb784f"
+    },
+    {
+      "path": "src/assets/icons/phosphor/gear.svg",
+      "bytes": 2039,
+      "sha256": "f31ef3e36fb8ffdbdffba0cff464412fe3f903c606e06438129f7a7937b366e8"
+    },
+    {
+      "path": "src/assets/icons/phosphor/LICENSE",
+      "bytes": 1097,
+      "sha256": "549c8a86f7426da08cd5319404f1660871516656f3ed66a50111c4af36331e00"
+    },
+    {
+      "path": "src/assets/icons/phosphor/monitor.svg",
+      "bytes": 346,
+      "sha256": "02f1baf3256ad7924473b1b83ed1101b4c2fde3a969d7ceb58ecf1f17b0e3b3f"
+    },
+    {
+      "path": "src/assets/icons/phosphor/note-pencil.svg",
+      "bytes": 473,
+      "sha256": "6468eaab944d70e2457031d16f1e56c201f98ac1bef1019326e6a23caa1187d6"
+    },
+    {
+      "path": "src/assets/icons/phosphor/plus.svg",
+      "bytes": 212,
+      "sha256": "d924e999d110e1f84c3197dba33206d46fb94cb28a2b53f6ca35217466e3c92e"
+    },
+    {
+      "path": "src/assets/icons/phosphor/record.svg",
+      "bytes": 378,
+      "sha256": "ff4741b1d80b62583e6fa56c937b3bb26d8843183b86ae8c0c22359db917a5d3"
+    },
+    {
+      "path": "src/assets/icons/phosphor/shield-check.svg",
+      "bytes": 594,
+      "sha256": "3976993805ad3b2fc3f7f56fc8d64329142441788a20fcf9d647e9ceaf29a8d4"
+    },
+    {
+      "path": "src/assets/icons/phosphor/sparkle.svg",
+      "bytes": 807,
+      "sha256": "027e2e3b652bb25cce0e0f1ae706720cd684f05ddce4c25497a6133aa2548da5"
+    },
+    {
+      "path": "src/assets/icons/phosphor/x.svg",
+      "bytes": 276,
+      "sha256": "7f3f44f5e9fdc40d7d8ecaf49c9b2cca95a6f7b944f81f7ae5d8d8bb674d8d91"
+    },
+    {
+      "path": "src/assets/fonts/inter/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "src/assets/fonts/inter/OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "public/licenses/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "public/licenses/Phosphor-MIT.txt",
+      "bytes": 1097,
+      "sha256": "549c8a86f7426da08cd5319404f1660871516656f3ed66a50111c4af36331e00"
+    },
+    {
+      "path": "electron/assets/icons/app-active.png",
+      "bytes": 764984,
+      "sha256": "f3ed9b78c7e62813e887cb87ee2e9c99e836ae6d620b81adcce6486d6da8ca1f"
+    },
+    {
+      "path": "electron/assets/icons/record.svg",
+      "bytes": 378,
+      "sha256": "ff4741b1d80b62583e6fa56c937b3bb26d8843183b86ae8c0c22359db917a5d3"
+    },
+    {
+      "path": "electron/assets/icons/studio-active.png",
+      "bytes": 11250,
+      "sha256": "082afea29c5361eedc4aa07f7f6fdd4545659a39d277f0c638fee68a5b3d061e"
+    },
+    {
+      "path": "electron/assets/icons/tray-active.png",
+      "bytes": 870,
+      "sha256": "969835e1630c7ab386ad52c454e1e9934cea17de61d9bb6731f87190ed64159d"
+    },
+    {
+      "path": "electron/assets/icons/tray-active@2x.png",
+      "bytes": 2571,
+      "sha256": "5721e945bb3a4dce1ea6602a26dba4233eee4e869f1aeb8a15d58368416bc664"
+    },
+    {
+      "path": "build/icon.png",
+      "bytes": 28027,
+      "sha256": "601ecc219c39c02049f922fd486a0651241c630099ae781a51ba292600445e26"
+    }
+  ]
+}

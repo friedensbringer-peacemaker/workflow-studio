@@ -1,0 +1,37 @@
+node_modules
+dist
+dist-electron
+release
+.compliance
+.compliance-cache
+.compliance-review
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+recordings/
+artifacts/
+.local/
+
+# Eval run outputs (timestamped result logs)
+evals/results/
+# Opt-in OCR eval's downloaded traineddata cache
+evals/.cache/
+
+# Local configuration, media and exports must not enter source history.
+/sessions/
+/profiles/
+/userData/
+/exports/
+studio-settings.json
+wiki-targets.json
+branding.json
+*.pem
+*.key
+*.pfx
+*.p12
+*.pptx
+*.mp4
+*.webm
+*.wav

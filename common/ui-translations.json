@@ -1,0 +1,2590 @@
+{
+  "Protection off": {
+    "en": "Protection off",
+    "de": "Schutz aus"
+  },
+  "Ausnahmen:": {
+    "en": "Exceptions:",
+    "de": "Ausnahmen:"
+  },
+  "This tool records your screen and activity so it can turn what you did into a reusable skill. Here is exactly what it captures and what leaves your computer.": {
+    "en": "This tool records your screen and activity so it can turn what you did into a reusable skill. Here is exactly what it captures and what leaves your computer.",
+    "de": "Dieses Werkzeug zeichnet Bildschirm und Aktivitäten auf, um daraus wiederverwendbares Prozesswissen zu gewinnen. Hier steht, was erfasst wird und welche Daten den Computer verlassen können."
+  },
+  "Which apps you switch to, and their window and document titles.": {
+    "en": "Which apps you switch to, and their window and document titles.",
+    "de": "Geöffnete Anwendungen sowie deren Fenster- und Dokumenttitel."
+  },
+  "Web addresses of the pages you open.": {
+    "en": "Web addresses of the pages you open.",
+    "de": "Webadressen geöffneter Seiten."
+  },
+  "A short preview of text you copy, up to 120 characters.": {
+    "en": "A short preview of text you copy, up to 120 characters.",
+    "de": "Eine kurze Vorschau kopierter Texte mit bis zu 120 Zeichen."
+  },
+  "A silent video of the screen you select, at a low frame rate.": {
+    "en": "A silent video of the screen you select, at a low frame rate.",
+    "de": "Ein stummes Video des ausgewählten Bildschirms mit niedriger Bildrate."
+  },
+  "If you open the recorded terminal from the floating bar: its commands, working folders, exit status, timing, and complete terminal output.": {
+    "en": "If you open the recorded terminal from the floating bar: its commands, working folders, exit status, timing, and complete terminal output.",
+    "de": "Wenn das aufgezeichnete Terminal aus der Aufnahmeleiste geöffnet wird: Befehle, Arbeitsverzeichnisse, Rückgabestatus, Zeiten und vollständige Terminalausgabe."
+  },
+  "Do not type, paste, display, copy, or narrate passwords, access tokens, API keys, credentials, secrets, or other sensitive or confidential information. Anything visible on screen can appear in the recording, and copied text previews and narration are captured too.": {
+    "en": "Do not type, paste, display, copy, or narrate passwords, access tokens, API keys, credentials, secrets, or other sensitive or confidential information. Anything visible on screen can appear in the recording, and copied text previews and narration are captured too.",
+    "de": "Keine Passwörter, Zugriffstoken, API-Schlüssel, Zugangsdaten oder andere vertrauliche Informationen eingeben, einfügen, anzeigen, kopieren oder aussprechen. Sichtbare Inhalte können in der Aufnahme erscheinen; kopierte Textvorschauen und gesprochene Erklärungen werden ebenfalls erfasst."
+  },
+  "Only the terminal opened from the floating recording bar is captured.": {
+    "en": "Only the terminal opened from the floating recording bar is captured.",
+    "de": "Nur das aus der Aufnahmeleiste geöffnete Terminal wird erfasst."
+  },
+  "Its full output stays with this recording and has no app-imposed size limit, so long-running or noisy commands can make the saved recording much larger.": {
+    "en": "Its full output stays with this recording and has no app-imposed size limit, so long-running or noisy commands can make the saved recording much larger.",
+    "de": "Die vollständige Ausgabe bleibt bei dieser Aufnahme und hat keine Größenbegrenzung durch die App. Lange oder umfangreiche Befehle können die gespeicherte Aufnahme deutlich vergrößern."
+  },
+  "Skill Recorder does not edit shell profiles, install global hooks, watch existing terminals, or keep recording commands after this recording ends.": {
+    "en": "Skill Recorder does not edit shell profiles, install global hooks, watch existing terminals, or keep recording commands after this recording ends.",
+    "de": "Skill Recorder verändert keine Shellprofile, installiert keine globalen Hooks, überwacht keine vorhandenen Terminals und zeichnet nach Aufnahmeende keine Befehle weiter auf."
+  },
+  "Off by default. Choose the initial state and microphone with Narrate, then use the floating recording bar.": {
+    "en": "Off by default. Choose the initial state and microphone with Narrate, then use the floating recording bar.",
+    "de": "Standardmäßig aus. Anfangszustand und Mikrofon unter „Erklären“ wählen; danach die Aufnahmeleiste verwenden."
+  },
+  "Enabling Narrate briefly opens and releases the microphone so the app can request permission and show the available inputs. No audio is saved during this check.": {
+    "en": "Enabling Narrate briefly opens and releases the microphone so the app can request permission and show the available inputs. No audio is saved during this check.",
+    "de": "Beim Einschalten der Erklärung wird das Mikrofon kurz geöffnet und wieder freigegeben, um Berechtigung und verfügbare Eingänge zu prüfen. Dabei wird kein Ton gespeichert."
+  },
+  "Your microphone audio is saved only while it is on and a recording is running.": {
+    "en": "Your microphone audio is saved only while it is on and a recording is running.",
+    "de": "Mikrofonton wird nur gespeichert, wenn das Mikrofon eingeschaltet ist und eine Aufnahme läuft."
+  },
+  "Turning the microphone off ends that voice segment and releases the device. Turning it on again, or switching inputs, starts a new segment linked to the same recording timeline.": {
+    "en": "Turning the microphone off ends that voice segment and releases the device. Turning it on again, or switching inputs, starts a new segment linked to the same recording timeline.",
+    "de": "Ausschalten beendet das Sprachsegment und gibt das Mikrofon frei. Erneutes Einschalten oder ein Eingangswechsel beginnt ein neues Segment auf derselben Aufnahmezeitleiste."
+  },
+  "The recording can be turned into text on this computer using an on-device model. The transcript stays in the language you select from Whisper's 99 supported choices. The first transcription needs a one-time ~252 MB download that you choose when to start.": {
+    "en": "The recording can be turned into text on this computer using an on-device model. The transcript stays in the language you select from Whisper's 99 supported choices. The first transcription needs a one-time ~252 MB download that you choose when to start.",
+    "de": "Die Aufnahme kann mit einem lokalen Modell auf diesem Computer transkribiert werden. Das Transkript bleibt in der ausgewählten Sprache aus den 99 von Whisper unterstützten Sprachen. Für die erste Transkription ist ein einmaliger Download von etwa 252 MB erforderlich, den du selbst startest."
+  },
+  "Leave Narrate and the recording-bar microphone off and no microphone is opened.": {
+    "en": "Leave Narrate and the recording-bar microphone off and no microphone is opened.",
+    "de": "Wenn „Erklären“ und das Mikrofon in der Aufnahmeleiste ausgeschaltet bleiben, wird kein Mikrofon geöffnet."
+  },
+  "Everything is saved on this computer, in the app's own session folder.": {
+    "en": "Everything is saved on this computer, in the app's own session folder.",
+    "de": "Alles wird auf diesem Computer im Sitzungsordner der App gespeichert."
+  },
+  "Recordings stay until you delete them. You can delete any recording from Sessions.": {
+    "en": "Recordings stay until you delete them. You can delete any recording from Sessions.",
+    "de": "Aufnahmen bleiben bis zum Löschen erhalten. Sie können in der Sitzungsansicht gelöscht werden."
+  },
+  "Nothing leaves your computer while you record.": {
+    "en": "Nothing leaves your computer while you record.",
+    "de": "Während der Aufnahme werden keine Aufnahmedaten versendet."
+  },
+  "The new provider adapters send only step text and the transcript to the selected server after your confirmation. The original Copilot workflow also uses the recording and screen images; its separate confirmation explains this.": {
+    "en": "The new provider adapters send only step text and the transcript to the selected server after your confirmation. The original Copilot workflow also uses the recording and screen images; its separate confirmation explains this.",
+    "de": "Die neuen Anbieteradapter senden nach deiner Bestätigung nur Schritttext und Transkript an den ausgewählten Server. Der ursprüngliche Copilot-Ablauf nutzt zusätzlich Aufnahme und Bildschirmbilder; darauf weist seine eigene Bestätigung hin."
+  },
+  "By default, before anything is sent, this computer hides sensitive details like passwords, keys, emails, and card or ID numbers from that text and from your screen images. You can turn this off below.": {
+    "en": "By default, before anything is sent, this computer hides sensitive details like passwords, keys, emails, and card or ID numbers from that text and from your screen images. You can turn this off below.",
+    "de": "Standardmäßig werden vor dem Versand sensible Angaben wie Passwörter, Schlüssel, E-Mail-Adressen sowie Karten- und Ausweisnummern lokal ausgeblendet. Die folgenden Einstellungen betreffen den ursprünglichen Schutzablauf."
+  },
+  "On by default. Before your recording is analyzed, it checks the text and your screen images on this computer and hides sensitive details. Turn it off to send everything as recorded.": {
+    "en": "On by default. Before your recording is analyzed, it checks the text and your screen images on this computer and hides sensitive details. Turn it off to send everything as recorded.",
+    "de": "Standardmäßig eingeschaltet. Vor der Analyse werden Text und Bildschirmbilder lokal auf sensible Angaben geprüft und entsprechend verdeckt. Bei ausgeschaltetem Schutz kann die Originalaufnahme übertragen werden."
+  },
+  "It hides sensitive details like passwords, keys, emails, and card or ID numbers, both in the text that is sent (including narration and terminal output) and in your screen images.": {
+    "en": "It hides sensitive details like passwords, keys, emails, and card or ID numbers, both in the text that is sent (including narration and terminal output) and in your screen images.",
+    "de": "Sensible Angaben wie Passwörter, Schlüssel, E-Mail-Adressen und Karten- oder Ausweisnummern werden in übertragenem Text, Sprache, Terminalausgabe und Bildschirmbildern ausgeblendet."
+  },
+  "Turning it off sends your recording as recorded. That can make the analysis more accurate, but nothing is hidden, so only do it when the recording has nothing sensitive.": {
+    "en": "Turning it off sends your recording as recorded. That can make the analysis more accurate, but nothing is hidden, so only do it when the recording has nothing sensitive.",
+    "de": "Ohne diesen Schutz kann die Originalaufnahme gesendet werden. Das kann die Analyse verbessern, blendet aber keine sensiblen Angaben aus. Nur bei Aufnahmen ohne vertrauliche Inhalte verwenden."
+  },
+  "It all runs on this computer.": {
+    "en": "It all runs on this computer.",
+    "de": "Diese Schutzprüfung läuft auf diesem Computer."
+  },
+  "No method is 100% effective. It can miss details or mask the wrong ones. Treat it as a safety net, not a guarantee, and still avoid capturing anything secret.": {
+    "en": "No method is 100% effective. It can miss details or mask the wrong ones. Treat it as a safety net, not a guarantee, and still avoid capturing anything secret.",
+    "de": "Keine Methode erkennt alles zuverlässig. Angaben können übersehen oder falsch verdeckt werden. Der Schutz ist keine Garantie; vertrauliche Inhalte deshalb nicht aufnehmen."
+  },
+  "It does not log your keystrokes.": {
+    "en": "It does not log your keystrokes.",
+    "de": "Es werden keine einzelnen Tastendrücke protokolliert."
+  },
+  "It does not capture commands from other Terminal, PowerShell, or terminal apps.": {
+    "en": "It does not capture commands from other Terminal, PowerShell, or terminal apps.",
+    "de": "Befehle aus anderen Terminal-, PowerShell- oder Terminalanwendungen werden nicht erfasst."
+  },
+  "It only captures while a recording is running. Nothing runs in the background.": {
+    "en": "It only captures while a recording is running. Nothing runs in the background.",
+    "de": "Aufnahmeinhalte werden nur während einer laufenden Aufnahme erfasst."
+  },
+  "Setting up the on-device model… {count}%": {
+    "en": "Setting up the on-device model… {count}%",
+    "de": "Lokales Modell wird eingerichtet … {count}%"
+  },
+  "{size} · multilingual": {
+    "en": "{size} · multilingual",
+    "de": "{size} · mehrsprachig"
+  },
+  "Arbeit wird Wissen.": {
+    "de": "Arbeit wird Wissen.",
+    "en": "Work becomes knowledge."
+  },
+  "DEINE AUFNAHMEN": {
+    "de": "DEINE AUFNAHMEN",
+    "en": "YOUR RECORDINGS"
+  },
+  "Sitzungen aktualisieren": {
+    "de": "Sitzungen aktualisieren",
+    "en": "Refresh sessions"
+  },
+  "Aufnahmen": {
+    "de": "Aufnahmen",
+    "en": "Recordings"
+  },
+  "Prozessaufnahme": {
+    "de": "Prozessaufnahme",
+    "en": "Process recording"
+  },
+  "Skill-Ansicht (Copilot)": {
+    "de": "Skill-Ansicht (Copilot)",
+    "en": "Skill view (Copilot)"
+  },
+  "Dein Wissen bleibt bei dir.": {
+    "de": "Dein Wissen bleibt bei dir.",
+    "en": "Your knowledge stays with you."
+  },
+  "Aufnahmen und Bearbeitungen werden lokal gespeichert. KI nutzt du nur auf Wunsch.": {
+    "de": "Aufnahmen und Bearbeitungen werden lokal gespeichert. KI nutzt du nur auf Wunsch.",
+    "en": "Recordings and edits are stored locally. AI is used only when you choose."
+  },
+  "DEIN PROZESS, SCHRITT FÜR SCHRITT": {
+    "de": "DEIN PROZESS, SCHRITT FÜR SCHRITT",
+    "en": "YOUR PROCESS, STEP BY STEP"
+  },
+  "Aus Arbeit wird Wissen.": {
+    "de": "Aus Arbeit wird Wissen.",
+    "en": "Turn work into knowledge."
+  },
+  "KI-Anbieter": {
+    "de": "KI-Anbieter",
+    "en": "AI providers"
+  },
+  "Lokal bereit": {
+    "de": "Lokal bereit",
+    "en": "Ready locally"
+  },
+  "Ungespeicherte Änderungen": {
+    "de": "Ungespeicherte Änderungen",
+    "en": "Unsaved changes"
+  },
+  "Ohne KI ansehen und bearbeiten": {
+    "de": "Ohne KI ansehen und bearbeiten",
+    "en": "View and edit without AI"
+  },
+  "Fehlermeldung schließen": {
+    "de": "Fehlermeldung schließen",
+    "en": "Dismiss error"
+  },
+  "PROZESSDOKUMENT": {
+    "de": "PROZESSDOKUMENT",
+    "en": "PROCESS DOCUMENT"
+  },
+  "Prozesstitel": {
+    "de": "Prozesstitel",
+    "en": "Process title"
+  },
+  "Speichern": {
+    "de": "Speichern",
+    "en": "Save"
+  },
+  "Ziel des Prozesses": {
+    "de": "Ziel des Prozesses",
+    "en": "Process goal"
+  },
+  "Prozessziel": {
+    "de": "Prozessziel",
+    "en": "Process goal"
+  },
+  "Was soll mit diesem Ablauf erreicht werden?": {
+    "de": "Was soll mit diesem Ablauf erreicht werden?",
+    "en": "What should this process achieve?"
+  },
+  "Schritte": {
+    "de": "Schritte",
+    "en": "Steps"
+  },
+  "Schritt hinzufügen": {
+    "de": "Schritt hinzufügen",
+    "en": "Add step"
+  },
+  "Unbenannter Schritt": {
+    "de": "Unbenannter Schritt",
+    "en": "Untitled step"
+  },
+  "KI-Vorschlag": {
+    "de": "KI-Vorschlag",
+    "en": "AI suggestion"
+  },
+  "Manuell ergänzt": {
+    "de": "Manuell ergänzt",
+    "en": "Added manually"
+  },
+  "Noch keine Schritte. Ergänze den ersten Schritt über „Schritt hinzufügen“.": {
+    "de": "Noch keine Schritte. Ergänze den ersten Schritt über „Schritt hinzufügen“.",
+    "en": "No steps yet. Use “Add step” to create the first one."
+  },
+  "Letztes Löschen rückgängig": {
+    "de": "Letztes Löschen rückgängig",
+    "en": "Undo last deletion"
+  },
+  "SCHRITT": {
+    "de": "SCHRITT",
+    "en": "STEP"
+  },
+  "BEARBEITEN": {
+    "de": "BEARBEITEN",
+    "en": "EDIT"
+  },
+  "Schritt nach oben": {
+    "de": "Schritt nach oben",
+    "en": "Move step up"
+  },
+  "Schritt nach unten": {
+    "de": "Schritt nach unten",
+    "en": "Move step down"
+  },
+  "Schritt entfernen": {
+    "de": "Schritt entfernen",
+    "en": "Remove step"
+  },
+  "Entfernen": {
+    "de": "Entfernen",
+    "en": "Remove"
+  },
+  "Titel": {
+    "de": "Titel",
+    "en": "Title"
+  },
+  "Schritttitel": {
+    "de": "Schritttitel",
+    "en": "Step title"
+  },
+  "Ein Schritt braucht nicht immer ein Bild.": {
+    "de": "Ein Schritt braucht nicht immer ein Bild.",
+    "en": "A step does not always need an image."
+  },
+  "Bild wird geladen …": {
+    "de": "Bild wird geladen …",
+    "en": "Loading image …"
+  },
+  "Lokale Bildschirmvorschau": {
+    "de": "Lokale Bildschirmvorschau",
+    "en": "Local screen preview"
+  },
+  "Hier bleibt Platz für die visuelle Erklärung deines Ablaufs.": {
+    "de": "Hier bleibt Platz für die visuelle Erklärung deines Ablaufs.",
+    "en": "This space is reserved for a visual explanation of your process."
+  },
+  "Was passiert hier?": {
+    "de": "Was passiert hier?",
+    "en": "What happens here?"
+  },
+  "Schrittbeschreibung": {
+    "de": "Schrittbeschreibung",
+    "en": "Step description"
+  },
+  "Warum ist das wichtig?": {
+    "de": "Warum ist das wichtig?",
+    "en": "Why does this matter?"
+  },
+  "Begründung": {
+    "de": "Begründung",
+    "en": "Reason"
+  },
+  "Entscheidung, Voraussetzung oder Hintergrund": {
+    "de": "Entscheidung, Voraussetzung oder Hintergrund",
+    "en": "Decision, prerequisite or context"
+  },
+  "Ausnahmen & offene Fragen": {
+    "de": "Ausnahmen & offene Fragen",
+    "en": "Exceptions & open questions"
+  },
+  "Ausnahmen": {
+    "de": "Ausnahmen",
+    "en": "Exceptions"
+  },
+  "Wann läuft es anders? Was fehlt noch?": {
+    "de": "Wann läuft es anders? Was fehlt noch?",
+    "en": "When is it different? What is missing?"
+  },
+  "Wähle einen Schritt aus oder ergänze einen neuen.": {
+    "de": "Wähle einen Schritt aus oder ergänze einen neuen.",
+    "en": "Select a step or add a new one."
+  },
+  "Ein zweiter Blick auf deinen Ablauf": {
+    "de": "Ein zweiter Blick auf deinen Ablauf",
+    "en": "A second look at your process"
+  },
+  "KI strukturiert den gezeigten Text. Du prüfst und übernimmst den Vorschlag.": {
+    "de": "KI strukturiert den gezeigten Text. Du prüfst und übernimmst den Vorschlag.",
+    "en": "AI structures the displayed text. You review and apply the suggestion."
+  },
+  "KI-Anbieter auswählen": {
+    "de": "KI-Anbieter auswählen",
+    "en": "Select AI provider"
+  },
+  "CLI-Standardmodell": {
+    "de": "CLI-Standardmodell",
+    "en": "CLI default model"
+  },
+  "Bestehende Analyse": {
+    "de": "Bestehende Analyse",
+    "en": "Existing analysis"
+  },
+  "Modell noch wählen": {
+    "de": "Modell noch wählen",
+    "en": "Choose a model"
+  },
+  "Konfigurieren": {
+    "de": "Konfigurieren",
+    "en": "Configure"
+  },
+  "Aufnahme, Bilder und Transkript über die bestehende geschützte Copilot-Analyse auswerten.": {
+    "de": "Aufnahme, Bilder und Transkript über die bestehende geschützte Copilot-Analyse auswerten.",
+    "en": "Analyze recording, images and transcript using the existing protected Copilot workflow."
+  },
+  "Den gezeigten Schritttext und das Transkript an meinen gewählten Ollama-Server senden.": {
+    "de": "Den gezeigten Schritttext und das Transkript an meinen gewählten Ollama-Server senden.",
+    "en": "Send the displayed steps and transcript to my selected Ollama server."
+  },
+  "Der vorhandene Copilot-Ablauf berücksichtigt die Originalaufnahme.": {
+    "de": "Der vorhandene Copilot-Ablauf berücksichtigt die Originalaufnahme.",
+    "en": "The existing Copilot workflow uses the original recording."
+  },
+  "Keine Bildschirmbilder oder Videos werden über diese neuen Text-Adapter übertragen.": {
+    "de": "Keine Bildschirmbilder oder Videos werden über diese neuen Text-Adapter übertragen.",
+    "en": "These new text adapters do not send screen images or video."
+  },
+  "Schritte mit KI prüfen": {
+    "de": "Schritte mit KI prüfen",
+    "en": "Review steps with AI"
+  },
+  "Abbrechen": {
+    "de": "Abbrechen",
+    "en": "Cancel"
+  },
+  "VORSCHLAG VON": {
+    "de": "VORSCHLAG VON",
+    "en": "SUGGESTION FROM"
+  },
+  "Warum:": {
+    "de": "Warum:",
+    "en": "Why:"
+  },
+  "Ausnahmen / Fragen:": {
+    "de": "Ausnahmen / Fragen:",
+    "en": "Exceptions / questions:"
+  },
+  "Vorschlag in Editor übernehmen": {
+    "de": "Vorschlag in Editor übernehmen",
+    "en": "Apply suggestion to editor"
+  },
+  "Verwerfen": {
+    "de": "Verwerfen",
+    "en": "Discard"
+  },
+  "Transkript schließen": {
+    "de": "Transkript schließen",
+    "en": "Close transcript"
+  },
+  "Originaltranskript ansehen": {
+    "de": "Originaltranskript ansehen",
+    "en": "View original transcript"
+  },
+  "Markdown exportieren": {
+    "de": "Markdown exportieren",
+    "en": "Export Markdown"
+  },
+  "JSON exportieren": {
+    "de": "JSON exportieren",
+    "en": "Export JSON"
+  },
+  "Originaltranskript": {
+    "de": "Originaltranskript",
+    "en": "Original transcript"
+  },
+  "Noch kein Transkript vorhanden. Sprache kann nach einer Aufnahme lokal transkribiert werden.": {
+    "de": "Noch kein Transkript vorhanden. Sprache kann nach einer Aufnahme lokal transkribiert werden.",
+    "en": "No transcript yet. Narration can be transcribed locally after recording."
+  },
+  "Sprache lokal transkribieren": {
+    "de": "Sprache lokal transkribieren",
+    "en": "Transcribe narration locally"
+  },
+  "Zeig, wie du arbeitest.": {
+    "de": "Zeig, wie du arbeitest.",
+    "en": "Show how you work."
+  },
+  "KI-Anbieter einrichten": {
+    "de": "KI-Anbieter einrichten",
+    "en": "Configure AI provider"
+  },
+  "DU WÄHLST DAS MODELL": {
+    "de": "DU WÄHLST DAS MODELL",
+    "en": "YOU CHOOSE THE MODEL"
+  },
+  "Einstellungen schließen": {
+    "de": "Einstellungen schließen",
+    "en": "Close settings"
+  },
+  "Anbieter": {
+    "de": "Anbieter",
+    "en": "Provider"
+  },
+  "Basis-URL": {
+    "de": "Basis-URL",
+    "en": "Base URL"
+  },
+  "Anbieter Basis-URL": {
+    "de": "Anbieter Basis-URL",
+    "en": "Provider base URL"
+  },
+  "Pfad zur Codex-CLI": {
+    "de": "Pfad zur Codex-CLI",
+    "en": "Path to Codex CLI"
+  },
+  "Codex CLI Pfad": {
+    "de": "Codex CLI Pfad",
+    "en": "Codex CLI path"
+  },
+  "codex.exe über PATH oder vollständiger Pfad": {
+    "de": "codex.exe über PATH oder vollständiger Pfad",
+    "en": "codex.exe on PATH or full path"
+  },
+  "Modell": {
+    "de": "Modell",
+    "en": "Model"
+  },
+  "Modellname": {
+    "de": "Modellname",
+    "en": "Model name"
+  },
+  "Leer = CLI-Standardmodell": {
+    "de": "Leer = CLI-Standardmodell",
+    "en": "Blank = CLI default model"
+  },
+  "Exakter Modellname deines Anbieters": {
+    "de": "Exakter Modellname deines Anbieters",
+    "en": "Exact model name from your provider"
+  },
+  "Gefundene Modelle": {
+    "de": "Gefundene Modelle",
+    "en": "Available models"
+  },
+  "Gefundenes Modell auswählen": {
+    "de": "Gefundenes Modell auswählen",
+    "en": "Select available model"
+  },
+  "Ein Modell auswählen": {
+    "de": "Ein Modell auswählen",
+    "en": "Select a model"
+  },
+  "API-Schlüssel": {
+    "de": "API-Schlüssel",
+    "en": "API key"
+  },
+  "· gespeichert": {
+    "de": "· gespeichert",
+    "en": "· saved"
+  },
+  "Leer lassen, um gespeicherten Schlüssel zu behalten": {
+    "de": "Leer lassen, um gespeicherten Schlüssel zu behalten",
+    "en": "Leave blank to retain saved key"
+  },
+  "Bei lokalen Servern meist nicht erforderlich": {
+    "de": "Bei lokalen Servern meist nicht erforderlich",
+    "en": "Usually not needed for local servers"
+  },
+  "Schlüssel werden durch den Betriebssystem-Schlüsselschutz verschlüsselt gespeichert. Bei Wechsel der Ziel-URL muss der Schlüssel erneut hinterlegt werden.": {
+    "de": "Schlüssel werden durch den Betriebssystem-Schlüsselschutz verschlüsselt gespeichert. Bei Wechsel der Ziel-URL muss der Schlüssel erneut hinterlegt werden.",
+    "en": "Keys are encrypted using the operating system's key protection. Re-enter the key when changing the destination URL."
+  },
+  "Speichern & Verbindung prüfen": {
+    "de": "Speichern & Verbindung prüfen",
+    "en": "Save & check connection"
+  },
+  "Mit Beispieldaten testen": {
+    "de": "Mit Beispieldaten testen",
+    "en": "Test with sample data"
+  },
+  "Anbieter mit Beispieldaten testen": {
+    "de": "Anbieter mit Beispieldaten testen",
+    "en": "Test provider with sample data"
+  },
+  "Prüft den vollständigen Weg bis zum gültigen Schrittvorschlag. Der Test sendet nur einen fest eingebauten, künstlichen Prozess. Dein geöffnetes Dokument wird weder versendet noch verändert.": {
+    "de": "Prüft den vollständigen Weg bis zum gültigen Schrittvorschlag. Der Test sendet nur einen fest eingebauten, künstlichen Prozess. Dein geöffnetes Dokument wird weder versendet noch verändert.",
+    "en": "Tests the full path to a valid step suggestion. Only a built-in synthetic process is sent. Your open document is neither sent nor changed."
+  },
+  "Bei Cloud-Anbietern kann der Test Kosten oder Kontingent verbrauchen. Codex verwendet die bestehende CLI-Konfiguration.": {
+    "de": "Bei Cloud-Anbietern kann der Test Kosten oder Kontingent verbrauchen. Codex verwendet die bestehende CLI-Konfiguration.",
+    "en": "Cloud tests may incur charges or use your quota. Codex uses the existing CLI configuration."
+  },
+  "Speichern & Beispiel analysieren": {
+    "de": "Speichern & Beispiel analysieren",
+    "en": "Save & analyze example"
+  },
+  "Test abbrechen": {
+    "de": "Test abbrechen",
+    "en": "Cancel test"
+  },
+  "Vor dem Analysetest einen Modellnamen wählen oder eintragen.": {
+    "de": "Vor dem Analysetest einen Modellnamen wählen oder eintragen.",
+    "en": "Choose or enter a model name before running the analysis test."
+  },
+  "Erhaltener Testvorschlag": {
+    "de": "Erhaltener Testvorschlag",
+    "en": "Received test suggestion"
+  },
+  "Schließen": {
+    "de": "Schließen",
+    "en": "Close"
+  },
+  "Einstellungen speichern": {
+    "de": "Einstellungen speichern",
+    "en": "Save settings"
+  },
+  "API-Basis ohne /chat/completions oder /messages; bei LM Studio inklusive /v1. HTTP nur für localhost; extern HTTPS.": {
+    "de": "API-Basis ohne /chat/completions oder /messages; bei LM Studio inklusive /v1. HTTP nur für localhost; extern HTTPS.",
+    "en": "API base without /chat/completions or /messages; include /v1 for LM Studio. HTTP only for localhost; HTTPS for remote servers."
+  },
+  "Lokale Modelle über Ollama. Der Server muss bereits laufen; es wird kein Modell automatisch heruntergeladen.": {
+    "de": "Lokale Modelle über Ollama. Der Server muss bereits laufen; es wird kein Modell automatisch heruntergeladen.",
+    "en": "Local models via Ollama. The server must already be running; models are not downloaded automatically."
+  },
+  "Für LM Studio, OpenLLM, vLLM, OpenRouter und andere Server mit OpenAI-kompatibler Chat-Completions-Schnittstelle.": {
+    "de": "Für LM Studio, OpenLLM, vLLM, OpenRouter und andere Server mit OpenAI-kompatibler Chat-Completions-Schnittstelle.",
+    "en": "For LM Studio, OpenLLM, vLLM, OpenRouter and other servers with an OpenAI-compatible Chat Completions API."
+  },
+  "Verwendet deine separat installierte Codex-CLI und deren bestehende Anmeldung. Start im read-only-Modus; keine Anmeldung wird automatisch eingerichtet.": {
+    "de": "Verwendet deine separat installierte Codex-CLI und deren bestehende Anmeldung. Start im read-only-Modus; keine Anmeldung wird automatisch eingerichtet.",
+    "en": "Uses your separately installed Codex CLI and its existing sign-in. Runs in read-only mode; no sign-in is set up automatically."
+  },
+  "Direkte Anthropic Messages API mit eigenem API-Schlüssel. Ein Claude-Chat-Abonnement ist kein API-Schlüssel.": {
+    "de": "Direkte Anthropic Messages API mit eigenem API-Schlüssel. Ein Claude-Chat-Abonnement ist kein API-Schlüssel.",
+    "en": "Direct Anthropic Messages API with your own API key. A Claude chat subscription is not an API key."
+  },
+  "Der vorhandene Copilot-Analyseweg bleibt verfügbar. Anmeldung und Skill-Erstellung verwenden weiterhin die bestehenden Recorder-Funktionen.": {
+    "de": "Der vorhandene Copilot-Analyseweg bleibt verfügbar. Anmeldung und Skill-Erstellung verwenden weiterhin die bestehenden Recorder-Funktionen.",
+    "en": "The existing Copilot analysis remains available. Sign-in and skill creation still use the original recorder functions."
+  },
+  "Z.ai ist für die allgemeine API vorkonfiguriert. Eigenen Z.ai-API-Schlüssel und freigeschalteten GLM-Modellnamen eintragen. Ein Coding-Plan gilt nicht automatisch für diese allgemeine Prozessanalyse.": {
+    "de": "Z.ai ist für die allgemeine API vorkonfiguriert. Eigenen Z.ai-API-Schlüssel und freigeschalteten GLM-Modellnamen eintragen. Ein Coding-Plan gilt nicht automatisch für diese allgemeine Prozessanalyse.",
+    "en": "Z.ai is preset for the general API. Enter your Z.ai API key and an available GLM model name. A Coding Plan does not automatically cover this process analysis."
+  },
+  "In LM Studio ein Modell laden und den lokalen Server starten. Danach hier die Verbindung prüfen und das geladene Modell auswählen.": {
+    "de": "In LM Studio ein Modell laden und den lokalen Server starten. Danach hier die Verbindung prüfen und das geladene Modell auswählen.",
+    "en": "Load a model in LM Studio and start its local server. Then check the connection here and select the loaded model."
+  },
+  "Sitzung laden": {
+    "de": "Sitzung laden",
+    "en": "Load session"
+  },
+  "Lokal gespeichert": {
+    "de": "Lokal gespeichert",
+    "en": "Saved locally"
+  },
+  "Bild nicht verfügbar.": {
+    "de": "Bild nicht verfügbar.",
+    "en": "Image unavailable."
+  },
+  "Neuer Schritt": {
+    "de": "Neuer Schritt",
+    "en": "New step"
+  },
+  "Ungespeicherte Änderungen verwerfen und andere Sitzung öffnen?": {
+    "de": "Ungespeicherte Änderungen verwerfen und andere Sitzung öffnen?",
+    "en": "Discard unsaved changes and open another session?"
+  },
+  "Ungespeicherte Änderungen verwerfen und die bisherige Skill-Ansicht öffnen?": {
+    "de": "Ungespeicherte Änderungen verwerfen und die bisherige Skill-Ansicht öffnen?",
+    "en": "Discard unsaved changes and open the original skill view?"
+  },
+  "Transkript erstellt. Änderungen speichern und Sitzung neu laden, um es einzulesen.": {
+    "de": "Transkript erstellt. Änderungen speichern und Sitzung neu laden, um es einzulesen.",
+    "en": "Transcript created. Save your changes and reload the session to read it."
+  },
+  "Lokal transkribieren": {
+    "de": "Lokal transkribieren",
+    "en": "Transcribe locally"
+  },
+  "KI-Anbieter lokal gespeichert": {
+    "de": "KI-Anbieter lokal gespeichert",
+    "en": "AI provider saved locally"
+  },
+  "Anbieter konnte nicht gespeichert werden.": {
+    "de": "Anbieter konnte nicht gespeichert werden.",
+    "en": "Could not save provider."
+  },
+  "Verbindung wird geprüft …": {
+    "de": "Verbindung wird geprüft …",
+    "en": "Checking connection …"
+  },
+  "Künstlicher Beispielprozess wird analysiert …": {
+    "de": "Künstlicher Beispielprozess wird analysiert …",
+    "en": "Analyzing synthetic example …"
+  },
+  "Sprache konnte nicht gespeichert werden.": {
+    "de": "Sprache konnte nicht gespeichert werden.",
+    "en": "Could not save interface language."
+  },
+  "Sprache der Oberfläche": {
+    "de": "Sprache der Oberfläche",
+    "en": "Interface language"
+  },
+  "ausgewählt": {
+    "de": "ausgewählt",
+    "en": "selected"
+  },
+  "Ändern": {
+    "de": "Ändern",
+    "en": "Change"
+  },
+  "Keine KI bei der Aufnahme": {
+    "de": "Keine KI bei der Aufnahme",
+    "en": "No AI used during recording"
+  },
+  "Ollama · lokal": {
+    "de": "Ollama · lokal",
+    "en": "Ollama · local"
+  },
+  "LM Studio · lokal": {
+    "de": "LM Studio · lokal",
+    "en": "LM Studio · local"
+  },
+  "OpenAI-kompatibel · frei": {
+    "de": "OpenAI-kompatibel · frei",
+    "en": "OpenAI-compatible · custom"
+  },
+  "GitHub Copilot · bestehend": {
+    "de": "GitHub Copilot · bestehend",
+    "en": "GitHub Copilot · original"
+  },
+  "Analyse mit {provider}": {
+    "de": "Analyse mit {provider}",
+    "en": "Analysis with {provider}"
+  },
+  "Exportiert: {path}": {
+    "de": "Exportiert: {path}",
+    "en": "Exported: {path}"
+  },
+  "Aufgezeichneter Bildschirm zu {title}": {
+    "de": "Aufgezeichneter Bildschirm zu {title}",
+    "en": "Recorded screen for {title}"
+  },
+  "Den gezeigten Schritttext und das Transkript an {provider} senden.": {
+    "de": "Den gezeigten Schritttext und das Transkript an {provider} senden.",
+    "en": "Send the displayed steps and transcript to {provider}."
+  },
+  "Künstliche Testdaten an {provider} senden.": {
+    "de": "Künstliche Testdaten an {provider} senden.",
+    "en": "Send synthetic test data to {provider}."
+  },
+  "Analyse erfolgreich: {count} Schritte im gültigen Editorformat erhalten.": {
+    "de": "Analyse erfolgreich: {count} Schritte im gültigen Editorformat erhalten.",
+    "en": "Analysis succeeded: received {count} steps in the valid editor format."
+  },
+  "Narrate": {
+    "de": "Erklären",
+    "en": "Narrate"
+  },
+  "Explain out loud (optional)": {
+    "de": "Laut erklären (optional)",
+    "en": "Explain out loud (optional)"
+  },
+  "Recording settings": {
+    "de": "Aufnahmeeinstellungen",
+    "en": "Recording settings"
+  },
+  "Language": {
+    "de": "Sprache der Aufnahme",
+    "en": "Language"
+  },
+  "Microphone": {
+    "de": "Mikrofon",
+    "en": "Microphone"
+  },
+  "Screen": {
+    "de": "Bildschirm",
+    "en": "Screen"
+  },
+  "The transcript stays in this language": {
+    "de": "Das Transkript bleibt in dieser Sprache",
+    "en": "The transcript stays in this language"
+  },
+  "Loading microphones...": {
+    "de": "Mikrofone werden geladen …",
+    "en": "Loading microphones..."
+  },
+  "No screens available": {
+    "de": "Keine Bildschirme verfügbar",
+    "en": "No screens available"
+  },
+  "Loading screens...": {
+    "de": "Bildschirme werden geladen …",
+    "en": "Loading screens..."
+  },
+  "Requesting microphone access...": {
+    "de": "Mikrofonzugriff wird angefragt …",
+    "en": "Requesting microphone access..."
+  },
+  "Microphone needs attention": {
+    "de": "Mikrofon prüfen",
+    "en": "Microphone needs attention"
+  },
+  "Voice off for this recording": {
+    "de": "Sprache für diese Aufnahme aus",
+    "en": "Voice off for this recording"
+  },
+  "Records your screen and activity": {
+    "de": "Zeichnet Bildschirm und Aktivitäten auf",
+    "en": "Records your screen and activity"
+  },
+  "See exactly what's captured": {
+    "de": "Erfasste Daten ansehen",
+    "en": "See exactly what's captured"
+  },
+  "Review sessions": {
+    "de": "Aufnahmen ansehen",
+    "en": "Review sessions"
+  },
+  "No recordings yet": {
+    "de": "Noch keine Aufnahmen",
+    "en": "No recordings yet"
+  },
+  "Nothing recorded yet": {
+    "de": "Noch keine Aufnahmen",
+    "en": "Nothing recorded yet"
+  },
+  "advanced protection": {
+    "de": "Erweiterter Schutz",
+    "en": "advanced protection"
+  },
+  "voice transcription": {
+    "de": "Sprachtranskription",
+    "en": "voice transcription"
+  },
+  "on-device": {
+    "de": "lokal",
+    "en": "on-device"
+  },
+  "on-device · multilingual": {
+    "de": "lokal · mehrsprachig",
+    "en": "on-device · multilingual"
+  },
+  "preparing": {
+    "de": "wird vorbereitet",
+    "en": "preparing"
+  },
+  "downloading": {
+    "de": "wird heruntergeladen",
+    "en": "downloading"
+  },
+  "download failed": {
+    "de": "Download fehlgeschlagen",
+    "en": "download failed"
+  },
+  "not downloaded": {
+    "de": "nicht heruntergeladen",
+    "en": "not downloaded"
+  },
+  "retry": {
+    "de": "erneut versuchen",
+    "en": "retry"
+  },
+  "download": {
+    "de": "herunterladen",
+    "en": "download"
+  },
+  "Stop recording": {
+    "de": "Aufnahme beenden",
+    "en": "Stop recording"
+  },
+  "Start recording": {
+    "de": "Aufnahme starten",
+    "en": "Start recording"
+  },
+  "Capture saved. Open Sessions to analyze": {
+    "de": "Aufnahme gespeichert. Zur Analyse Aufnahmen öffnen",
+    "en": "Capture saved. Open Sessions to analyze"
+  },
+  "Recording discarded": {
+    "de": "Aufnahme verworfen",
+    "en": "Recording discarded"
+  },
+  "Screen capture needs attention": {
+    "de": "Bildschirmaufnahme prüfen",
+    "en": "Screen capture needs attention"
+  },
+  "Action failed": {
+    "de": "Aktion fehlgeschlagen",
+    "en": "Action failed"
+  },
+  "Could not start recording.": {
+    "de": "Aufnahme konnte nicht gestartet werden.",
+    "en": "Could not start recording."
+  },
+  "Unsupported narration language.": {
+    "de": "Nicht unterstützte Aufnahmesprache.",
+    "en": "Unsupported narration language."
+  },
+  "Could not change the narration language.": {
+    "de": "Aufnahmesprache konnte nicht geändert werden.",
+    "en": "Could not change the narration language."
+  },
+  "Could not update the narration preference.": {
+    "de": "Spracheinstellung konnte nicht geändert werden.",
+    "en": "Could not update the narration preference."
+  },
+  "Could not select that microphone.": {
+    "de": "Mikrofon konnte nicht ausgewählt werden.",
+    "en": "Could not select that microphone."
+  },
+  "Could not select that screen.": {
+    "de": "Bildschirm konnte nicht ausgewählt werden.",
+    "en": "Could not select that screen."
+  },
+  "Could not download the voice transcription model.": {
+    "de": "Sprachmodell konnte nicht heruntergeladen werden.",
+    "en": "Could not download the voice transcription model."
+  },
+  "Could not update advanced protection.": {
+    "de": "Schutzeinstellung konnte nicht geändert werden.",
+    "en": "Could not update advanced protection."
+  },
+  "Could not download the protection models.": {
+    "de": "Schutzmodelle konnten nicht heruntergeladen werden.",
+    "en": "Could not download the protection models."
+  },
+  "Before you record": {
+    "de": "Vor der Aufnahme",
+    "en": "Before you record"
+  },
+  "Starting…": {
+    "de": "Wird gestartet …",
+    "en": "Starting…"
+  },
+  "Checking…": {
+    "de": "Wird geprüft …",
+    "en": "Checking…"
+  },
+  "What's recorded": {
+    "de": "Was wird aufgezeichnet?",
+    "en": "What's recorded"
+  },
+  "While you're recording": {
+    "de": "Während der Aufnahme",
+    "en": "While you're recording"
+  },
+  "Only between Start and Stop.": {
+    "de": "Nur zwischen Start und Stopp.",
+    "en": "Only between Start and Stop."
+  },
+  "Recorded terminal (only if you open it)": {
+    "de": "Aufgezeichnetes Terminal (nur wenn geöffnet)",
+    "en": "Recorded terminal (only if you open it)"
+  },
+  "Voice narration (only if you turn it on)": {
+    "de": "Gesprochene Erklärung (nur wenn eingeschaltet)",
+    "en": "Voice narration (only if you turn it on)"
+  },
+  "Where it's stored": {
+    "de": "Wo wird gespeichert?",
+    "en": "Where it's stored"
+  },
+  "What's sent for analysis": {
+    "de": "Was wird zur Analyse gesendet?",
+    "en": "What's sent for analysis"
+  },
+  "Advanced protection": {
+    "de": "Erweiterter Schutz",
+    "en": "Advanced protection"
+  },
+  "What it never does": {
+    "de": "Was nicht aufgezeichnet wird",
+    "en": "What it never does"
+  },
+  "Got it": {
+    "de": "Verstanden",
+    "en": "Got it"
+  },
+  "Retry": {
+    "de": "Erneut versuchen",
+    "en": "Retry"
+  },
+  "Set up now": {
+    "de": "Jetzt einrichten",
+    "en": "Set up now"
+  },
+  "On-device model ready": {
+    "de": "Lokales Modell bereit",
+    "en": "On-device model ready"
+  },
+  "Setting up the on-device model…": {
+    "de": "Lokales Modell wird eingerichtet …",
+    "en": "Setting up the on-device model…"
+  },
+  "Couldn't set up the model": {
+    "de": "Modell konnte nicht eingerichtet werden",
+    "en": "Couldn't set up the model"
+  },
+  "On-device model not set up yet": {
+    "de": "Lokales Modell noch nicht eingerichtet",
+    "en": "On-device model not set up yet"
+  },
+  "Keep passwords, access tokens, API keys, and other sensitive or confidential information off screen and out of narration.": {
+    "de": "Passwörter, Zugriffstoken, API-Schlüssel und andere vertrauliche Informationen dürfen weder auf dem Bildschirm noch in der gesprochenen Erklärung vorkommen.",
+    "en": "Keep passwords, access tokens, API keys, and other sensitive or confidential information off screen and out of narration."
+  },
+  "For complete transparency, review what is captured and what may later be sent to the provider you explicitly select for analysis.": {
+    "de": "Prüfe, was aufgezeichnet wird und welche Daten später an den von dir ausdrücklich gewählten Analyseanbieter gesendet werden können.",
+    "en": "For complete transparency, review what is captured and what may later be sent to the provider you explicitly select for analysis."
+  },
+  "{count} events captured": {
+    "de": "{count} Ereignisse aufgezeichnet",
+    "en": "{count} events captured"
+  },
+  "Ready to capture · {screen}": {
+    "de": "Aufnahmebereit · {screen}",
+    "en": "Ready to capture · {screen}"
+  },
+  "Listening · {language}": {
+    "de": "Hört zu · {language}",
+    "en": "Listening · {language}"
+  },
+  "Review sessions, {count} ready to analyze": {
+    "de": "Aufnahmen ansehen, {count} zur Analyse bereit",
+    "en": "Review sessions, {count} ready to analyze"
+  },
+  "Review sessions, nothing recorded yet": {
+    "de": "Aufnahmen ansehen, noch keine Aufnahme",
+    "en": "Review sessions, nothing recorded yet"
+  },
+  "Review sessions, {count} recorded": {
+    "de": "Aufnahmen ansehen, {count} aufgezeichnet",
+    "en": "Review sessions, {count} recorded"
+  },
+  "{count} ready to analyze": {
+    "de": "{count} zur Analyse bereit",
+    "en": "{count} ready to analyze"
+  },
+  "{count} recordings": {
+    "de": "{count} Aufnahmen",
+    "en": "{count} recordings"
+  },
+  "{count} recording": {
+    "de": "{count} Aufnahme",
+    "en": "{count} recording"
+  },
+  "{shortcut} toggles from anywhere": {
+    "de": "{shortcut} schaltet die Aufnahme von überall um",
+    "en": "{shortcut} toggles from anywhere"
+  },
+  "Bitte alle Recorder- und Studio-Fenster beenden und die App neu starten.": {
+    "de": "Bitte alle Recorder- und Studio-Fenster beenden und die App neu starten.",
+    "en": "Quit all recorder and studio windows, then restart the app."
+  },
+  "Aufnahmeeinstellungen konnten nicht geladen werden.": {
+    "de": "Aufnahmeeinstellungen konnten nicht geladen werden.",
+    "en": "Could not load capture settings."
+  },
+  "Aufnahmeeinstellungen konnten nicht gespeichert werden.": {
+    "de": "Aufnahmeeinstellungen konnten nicht gespeichert werden.",
+    "en": "Could not save capture settings."
+  },
+  "App vollständig beenden und neu starten.": {
+    "de": "App vollständig beenden und neu starten.",
+    "en": "Fully quit the app and restart it."
+  },
+  "Aufnahmeart": {
+    "de": "Aufnahmeart",
+    "en": "Capture mode"
+  },
+  "Klick-Screenshots": {
+    "de": "Klick-Screenshots",
+    "en": "Click screenshots"
+  },
+  "Video": {
+    "de": "Video",
+    "en": "Video"
+  },
+  "Video + Klick-Screenshots": {
+    "de": "Video + Klick-Screenshots",
+    "en": "Video + click screenshots"
+  },
+  "Mausposition protokollieren": {
+    "de": "Mausposition protokollieren",
+    "en": "Record pointer position"
+  },
+  "Bis zu zehn Positionsmessungen pro Sekunde bei Bewegung. Klicks enthalten immer Position und Zeitstempel.": {
+    "de": "Bis zu zehn Positionsmessungen pro Sekunde bei Bewegung. Klicks enthalten immer Position und Zeitstempel.",
+    "en": "Up to ten position samples per second while moving. Clicks always include position and timestamp."
+  },
+  "Verzögerung nach Klick (ms)": {
+    "de": "Verzögerung nach Klick (ms)",
+    "en": "Delay after click (ms)"
+  },
+  "Steuertasten und Kombinationen erfassen": {
+    "de": "Steuertasten und Kombinationen erfassen",
+    "en": "Capture control keys and combinations"
+  },
+  "Nur Tab, Enter, Escape, Pfeile, Bild- und Navigationstasten mit optionalen Modifikatoren. Keine eingegebenen Zeichen oder Textinhalte.": {
+    "de": "Nur Tab, Enter, Escape, Pfeile, Bild- und Navigationstasten mit optionalen Modifikatoren. Keine eingegebenen Zeichen oder Textinhalte.",
+    "en": "Only Tab, Enter, Escape, arrows, page and navigation keys with optional modifiers. No typed characters or text contents."
+  },
+  "Zwischenablage-Vorschau erfassen": {
+    "de": "Zwischenablage-Vorschau erfassen",
+    "en": "Capture clipboard preview"
+  },
+  "Passwortfelder werden nicht in allen Apps erkannt. Sichtbare Passwörter, Zwischenablage und gesprochene Geheimnisse können trotzdem in die Aufnahme gelangen. Vor vertraulichen Eingaben Aufnahme beenden.": {
+    "de": "Passwortfelder werden nicht in allen Apps erkannt. Sichtbare Passwörter, Zwischenablage und gesprochene Geheimnisse können trotzdem in die Aufnahme gelangen. Vor vertraulichen Eingaben Aufnahme beenden.",
+    "en": "Password fields are not detected in every app. Visible passwords, clipboard contents and spoken secrets may still enter the recording. Stop recording before entering confidential information."
+  },
+  "Klickposition": {
+    "de": "Klickposition",
+    "en": "Click position"
+  },
+  "Je nach Aufnahmeart werden Klickbilder, Mauspositionen und aktivierte Steuertasten protokolliert. Normale Texteingaben werden nicht gespeichert. Passwortfelder werden nicht in allen Apps erkannt; vor Passwörtern, PINs und vertraulichen Angaben Aufnahme beenden. Video, Zwischenablage und Sprache können Geheimnisse trotzdem erfassen.": {
+    "de": "Je nach Aufnahmeart werden Klickbilder, Mauspositionen und aktivierte Steuertasten protokolliert. Die Tastaturerfassung speichert keine eingegebenen Zeichen. Passwortfelder werden nicht in allen Apps erkannt; vor Passwörtern, PINs und vertraulichen Angaben Aufnahme beenden. Video, Zwischenablage und Sprache können Geheimnisse trotzdem erfassen.",
+    "en": "Depending on capture mode, click images, pointer positions and enabled control keys are recorded. Keyboard capture does not store typed characters. Password fields are not detected in every app; stop recording before passwords, PINs or confidential information. Video, clipboard and narration may still capture secrets."
+  },
+  "Normale Texteingaben werden nicht protokolliert. Optional werden nur Steuertasten wie Tab, Enter, Escape und Pfeile samt Modifikatoren gespeichert.": {
+    "de": "Die Tastaturerfassung protokolliert keine eingegebenen Zeichen. Optional werden nur Steuertasten wie Tab, Enter, Escape und Pfeile samt Modifikatoren gespeichert.",
+    "en": "Keyboard capture does not log typed characters. Optionally, only control keys such as Tab, Enter, Escape and arrows with modifiers are saved."
+  },
+  "Nur wenn aktiviert: eine Zwischenablage-Vorschau bis 120 Zeichen. Standardmäßig aus.": {
+    "de": "Nur wenn aktiviert: eine Zwischenablage-Vorschau bis 120 Zeichen. Standardmäßig aus.",
+    "en": "Only when enabled: a clipboard preview of up to 120 characters. Off by default."
+  },
+  "Je nach Aufnahmeart: stummes Video des gewählten Bildschirms, Klick-Screenshots oder beides.": {
+    "de": "Je nach Aufnahmeart: stummes Video des gewählten Bildschirms, Klick-Screenshots oder beides.",
+    "en": "Depending on capture mode: silent video of the selected screen, click screenshots, or both."
+  },
+  "Klicks mit Zeitstempel und Position; optional Mausbewegungen mit bis zu zehn Positionsmessungen pro Sekunde und Steuertasten ohne Texteingaben.": {
+    "de": "Klicks mit Zeitstempel und Position; optional Mausbewegungen mit bis zu zehn Positionsmessungen pro Sekunde und Steuertasten ohne Texteingaben.",
+    "en": "Clicks with timestamps and positions; optionally pointer movement at up to ten samples per second and control keys without typed text."
+  },
+  "Erkannte native Passwortfelder unterdrücken Klickbilder und Steuertasten. Browser und eigene Eingabefelder werden nicht zuverlässig erkannt. Video und andere Erfassungswege laufen weiter: vor Passwörtern und vertraulichen Eingaben Aufnahme beenden.": {
+    "de": "Erkannte native Passwortfelder unterdrücken Klickbilder und Steuertasten. Browser und eigene Eingabefelder werden nicht zuverlässig erkannt. Video und andere Erfassungswege laufen weiter: vor Passwörtern und vertraulichen Eingaben Aufnahme beenden.",
+    "en": "Detected native password fields suppress click images and control keys. Browser and custom fields are not detected reliably. Video and other capture paths continue: stop recording before passwords or confidential input."
+  },
+  "Ergänzende Informationen": {
+    "de": "Ergänzende Informationen",
+    "en": "Supplementary information"
+  },
+  "Etwas vergessen? Ergänze diesen Schritt mit einer Notiz, einer Sprachaufnahme oder zusätzlichen Dateien.": {
+    "de": "Etwas vergessen? Ergänze diesen Schritt mit einer Notiz, einer Sprachaufnahme oder zusätzlichen Dateien.",
+    "en": "Forgot something? Add a note, a voice recording or extra files to this step."
+  },
+  "Zusätzliche Notizen": {
+    "de": "Zusätzliche Notizen",
+    "en": "Additional notes"
+  },
+  "Bilder / Dokumente / Audio hinzufügen": {
+    "de": "Bilder / Dokumente / Audio hinzufügen",
+    "en": "Add images / documents / audio"
+  },
+  "Sprachnotiz aufnehmen": {
+    "de": "Sprachnotiz aufnehmen",
+    "en": "Record voice note"
+  },
+  "Sprachnotiz": {
+    "de": "Sprachnotiz",
+    "en": "Voice note"
+  },
+  "Mikrofon aktiv": {
+    "de": "Mikrofon aktiv",
+    "en": "Microphone active"
+  },
+  "Stoppen & hinzufügen": {
+    "de": "Stoppen & hinzufügen",
+    "en": "Stop & add"
+  },
+  "Aufnahme verwerfen": {
+    "de": "Aufnahme verwerfen",
+    "en": "Discard recording"
+  },
+  "Nur lokal gespeichert. Keine Passwörter oder vertraulichen Angaben aufnehmen. Mikrofon nur nach Start, maximal 5 Minuten. Ergänzungen anschließend speichern.": {
+    "de": "Nur lokal gespeichert. Keine Passwörter oder vertraulichen Angaben aufnehmen. Mikrofon nur nach Start, maximal 5 Minuten. Ergänzungen anschließend speichern.",
+    "en": "Stored locally only. Do not record passwords or confidential information. Microphone starts only on request, for up to 5 minutes. Save your additions afterwards."
+  },
+  "Zusatzdateien werden von den neuen Textadaptern nicht übertragen. Ergänzende Notizen und eingefügte Transkripte zählen beim bestätigten Textanalyse-Aufruf zum Schritttext.": {
+    "de": "Zusatzdateien werden von den neuen Textadaptern nicht übertragen. Ergänzende Notizen und eingefügte Transkripte zählen beim bestätigten Textanalyse-Aufruf zum Schritttext.",
+    "en": "The new text adapters do not transmit attached files. Supplementary notes and inserted transcripts are part of the step text when you confirm text analysis."
+  },
+  "Sprachmodell einrichten (~252 MB Download)": {
+    "de": "Sprachmodell einrichten (~252 MB Download)",
+    "en": "Set up speech model (~252 MB download)"
+  },
+  "Transkription lokal; Sprache gemäß DE/EN-Auswahl. Maximal 5 Minuten pro Audiodatei.": {
+    "de": "Transkription lokal; Sprache gemäß DE/EN-Auswahl. Maximal 5 Minuten pro Audiodatei.",
+    "en": "Transcription runs locally using your DE/EN language selection. Up to 5 minutes per audio file."
+  },
+  "Zusatzmaterial wird verarbeitet …": {
+    "de": "Zusatzmaterial wird verarbeitet …",
+    "en": "Processing supplementary material …"
+  },
+  "Zusatzmaterial bearbeiten": {
+    "de": "Zusatzmaterial bearbeiten",
+    "en": "Edit supplementary material"
+  },
+  "Vorschau nicht verfügbar.": {
+    "de": "Vorschau nicht verfügbar.",
+    "en": "Preview unavailable."
+  },
+  "Dokument öffnen": {
+    "de": "Dokument öffnen",
+    "en": "Open document"
+  },
+  "Zuordnung entfernen": {
+    "de": "Zuordnung entfernen",
+    "en": "Remove attachment"
+  },
+  "Höchstens 20 Dateien pro Schritt. Weniger Dateien auswählen.": {
+    "de": "Höchstens 20 Dateien pro Schritt. Weniger Dateien auswählen.",
+    "en": "Up to 20 files per step. Select fewer files."
+  },
+  "Sprachaufnahme wird hier nicht unterstützt. Audiodatei hinzufügen.": {
+    "de": "Sprachaufnahme wird hier nicht unterstützt. Audiodatei hinzufügen.",
+    "en": "Voice recording is unavailable here. Add an audio file instead."
+  },
+  "Sprachaufnahme fehlgeschlagen.": {
+    "de": "Sprachaufnahme fehlgeschlagen.",
+    "en": "Voice recording failed."
+  },
+  "Zu viel Ergänzungstext. Vorhandene Notizen zuerst kürzen.": {
+    "de": "Zu viel Ergänzungstext. Vorhandene Notizen zuerst kürzen.",
+    "en": "Too much supplementary text. Shorten existing notes first."
+  },
+  "Sprachmodell bereit. Sprachnotiz jetzt lokal transkribieren.": {
+    "de": "Sprachmodell bereit. Sprachnotiz jetzt lokal transkribieren.",
+    "en": "Speech model ready. You can now transcribe the voice note locally."
+  },
+  "Sprachmodell fehlt. Zuerst Sprachmodell einrichten wählen. Die Sprachnotiz bleibt gespeichert.": {
+    "de": "Sprachmodell fehlt. Zuerst Sprachmodell einrichten wählen. Die Sprachnotiz bleibt gespeichert.",
+    "en": "Speech model missing. Select Set up speech model first. Your voice note remains saved."
+  },
+  "Keine verständliche Sprache erkannt.": {
+    "de": "Keine verständliche Sprache erkannt.",
+    "en": "No intelligible speech detected."
+  },
+  "Datei leer oder größer als 25 MB.": {
+    "de": "Datei leer oder größer als 25 MB.",
+    "en": "File is empty or exceeds 25 MB."
+  },
+  "Dieses Dateiformat wird nicht als Zusatzmaterial unterstützt.": {
+    "de": "Dieses Dateiformat wird nicht als Zusatzmaterial unterstützt.",
+    "en": "This file format is not supported as supplementary material."
+  },
+  "Sprachnotiz ist zu groß.": {
+    "de": "Sprachnotiz ist zu groß.",
+    "en": "Voice note is too large."
+  },
+  "Dokument konnte nicht geöffnet werden.": {
+    "de": "Dokument konnte nicht geöffnet werden.",
+    "en": "Could not open document."
+  },
+  "Es läuft bereits eine lokale Transkription.": {
+    "de": "Es läuft bereits eine lokale Transkription.",
+    "en": "Local transcription is already running."
+  },
+  "Aufnahme starten / stoppen": {
+    "de": "Aufnahme starten / stoppen",
+    "en": "Start / stop recording"
+  },
+  "Erweiterter Schutz · lokal": {
+    "de": "Erweiterter Schutz · lokal",
+    "en": "Advanced protection · local"
+  },
+  "Lokal gespeichert.": {
+    "de": "Lokal gespeichert.",
+    "en": "Stored locally."
+  },
+  "KI nur auf Wunsch.": {
+    "de": "KI nur auf Wunsch.",
+    "en": "AI only when requested."
+  },
+  "Aufnahmen suchen": {
+    "de": "Aufnahmen suchen",
+    "en": "Search recordings"
+  },
+  "Keine passende Aufnahme.": {
+    "de": "Keine passende Aufnahme.",
+    "en": "No matching recording."
+  },
+  "Noch keine Aufnahmen.": {
+    "de": "Noch keine Aufnahmen.",
+    "en": "No recordings yet."
+  },
+  "Beispiele & weitere Funktionen": {
+    "de": "Beispiele & weitere Funktionen",
+    "en": "Examples & more"
+  },
+  "Prozess bearbeiten": {
+    "de": "Prozess bearbeiten",
+    "en": "Edit workflow"
+  },
+  "Bild vergrößern": {
+    "de": "Bild vergrößern",
+    "en": "Enlarge image"
+  },
+  "Bildschirmvorschau": {
+    "de": "Bildschirmvorschau",
+    "en": "Screen preview"
+  },
+  "Hintergründe & Ausnahmen": {
+    "de": "Hintergründe & Ausnahmen",
+    "en": "Context & exceptions"
+  },
+  "Mit Inhalt": {
+    "de": "Mit Inhalt",
+    "en": "Has content"
+  },
+  "Optional": {
+    "de": "Optional",
+    "en": "Optional"
+  },
+  "Mit KI überarbeiten": {
+    "de": "Mit KI überarbeiten",
+    "en": "Refine with AI"
+  },
+  "Optional · du entscheidest über die Übermittlung": {
+    "de": "Optional · du entscheidest über die Übermittlung",
+    "en": "Optional · you decide what to send"
+  },
+  "{count} Dateien": {
+    "de": "{count} Dateien",
+    "en": "{count} files"
+  },
+  "Notiz, Sprache oder Datei": {
+    "de": "Notiz, Sprache oder Datei",
+    "en": "Note, voice or file"
+  },
+  "Aufnahmequelle": {
+    "de": "Aufnahmequelle",
+    "en": "Capture source"
+  },
+  "Bildschirme": {
+    "de": "Bildschirme",
+    "en": "Displays"
+  },
+  "Programmfenster": {
+    "de": "Programmfenster",
+    "en": "Application windows"
+  },
+  "Auswahl bestätigen / aktualisieren": {
+    "de": "Auswahl bestätigen / aktualisieren",
+    "en": "Confirm / refresh selection"
+  },
+  "Bereich ändern": {
+    "de": "Bereich ändern",
+    "en": "Change region"
+  },
+  "Bereich auswählen": {
+    "de": "Bereich auswählen",
+    "en": "Select region"
+  },
+  "Ganzer Bildschirm": {
+    "de": "Ganzer Bildschirm",
+    "en": "Entire display"
+  },
+  "Fenster und Ausschnitte begrenzen Bilder und Video. App-Aktivitäten werden weiterhin separat erfasst.": {
+    "de": "Fenster und Ausschnitte begrenzen Bilder und Video. App-Aktivitäten werden weiterhin separat erfasst.",
+    "en": "Windows and regions limit images and video. App activity is still captured separately."
+  },
+  "Die gespeicherte Bildschirmkennung hat sich geändert. Bitte die aktuelle Auswahl bestätigen.": {
+    "de": "Die gespeicherte Bildschirmkennung hat sich geändert. Bitte die aktuelle Auswahl bestätigen.",
+    "en": "The saved display identifier has changed. Please confirm the current selection."
+  },
+  "Aufnahmebereich auswählen": {
+    "de": "Aufnahmebereich auswählen",
+    "en": "Select capture region"
+  },
+  "Ziehe einen Rahmen auf der Vorschau. Nur dieser Ausschnitt wird als Bild oder Video gespeichert.": {
+    "de": "Ziehe einen Rahmen auf der Vorschau. Nur dieser Ausschnitt wird als Bild oder Video gespeichert.",
+    "en": "Drag a rectangle on the preview. Only this region is saved as an image or video."
+  },
+  "Keine Bildschirmvorschau verfügbar.": {
+    "de": "Keine Bildschirmvorschau verfügbar.",
+    "en": "Screen preview unavailable."
+  },
+  "Vorschau wird geladen …": {
+    "de": "Vorschau wird geladen …",
+    "en": "Loading preview …"
+  },
+  "Ausschnitt in Prozent": {
+    "de": "Ausschnitt in Prozent",
+    "en": "Region in percent"
+  },
+  "Links": {
+    "de": "Links",
+    "en": "Left"
+  },
+  "Oben": {
+    "de": "Oben",
+    "en": "Top"
+  },
+  "Breite": {
+    "de": "Breite",
+    "en": "Width"
+  },
+  "Höhe": {
+    "de": "Höhe",
+    "en": "Height"
+  },
+  "Die Vorschau wird nicht gespeichert. App-Aktivitäten und optionale Sprache sind separate Erfassungswege.": {
+    "de": "Die Vorschau wird nicht gespeichert. App-Aktivitäten und optionale Sprache sind separate Erfassungswege.",
+    "en": "The preview is not saved. App activity and optional narration are separate capture paths."
+  },
+  "Bereich übernehmen": {
+    "de": "Bereich übernehmen",
+    "en": "Use region"
+  },
+  "Für Ausschnitte zuerst einen Bildschirm auswählen.": {
+    "de": "Für Ausschnitte zuerst einen Bildschirm auswählen.",
+    "en": "Select a display before choosing a region."
+  },
+  "Auswahl konnte nicht gespeichert werden.": {
+    "de": "Auswahl konnte nicht gespeichert werden.",
+    "en": "Could not save selection."
+  },
+  "Die gewählte Aufnahmequelle ist nicht verfügbar. Auswahl neu bestätigen.": {
+    "de": "Die gewählte Aufnahmequelle ist nicht verfügbar. Auswahl neu bestätigen.",
+    "en": "The selected capture source is unavailable. Confirm the selection again."
+  },
+  "Aufnahmequelle wurde geändert. Vorschau neu öffnen.": {
+    "de": "Aufnahmequelle wurde geändert. Vorschau neu öffnen.",
+    "en": "Capture source changed. Open the preview again."
+  },
+  "Ausschnitt · {source}": {
+    "de": "Ausschnitt · {source}",
+    "en": "Region · {source}"
+  },
+  "Fenster · {source}": {
+    "de": "Fenster · {source}",
+    "en": "Window · {source}"
+  },
+  "Die gespeicherte Aufnahmequelle wurde nicht gefunden. Bitte die aktuelle Auswahl bestätigen.": {
+    "de": "Die gespeicherte Aufnahmequelle wurde nicht gefunden. Bitte die aktuelle Auswahl bestätigen.",
+    "en": "The saved capture source was not found. Please confirm the current selection."
+  },
+  "OFFLINE WEITERGEBEN": {
+    "de": "OFFLINE WEITERGEBEN",
+    "en": "SHARE OFFLINE"
+  },
+  "Anleitung exportieren": {
+    "de": "Anleitung exportieren",
+    "en": "Export guide"
+  },
+  "ZIP vollständig entpacken und index.html öffnen. Die Anleitung funktioniert ohne Installation und ohne Internet.": {
+    "de": "ZIP vollständig entpacken und index.html öffnen. Die Anleitung funktioniert ohne Installation und ohne Internet.",
+    "en": "Extract the full ZIP and open index.html. The guide works without installation or internet."
+  },
+  "Unbenannter Prozess": {
+    "de": "Unbenannter Prozess",
+    "en": "Untitled workflow"
+  },
+  "Schritte: {steps} · Bildschirmbilder: {images}": {
+    "de": "Schritte: {steps} · Bildschirmbilder: {images}",
+    "en": "Steps: {steps} · Screenshots: {images}"
+  },
+  "Zusatzdateien einschließen: {count}": {
+    "de": "Zusatzdateien einschließen: {count}",
+    "en": "Include attached files: {count}"
+  },
+  "Zugeordnete Bilder, Dokumente und Sprachnotizen werden als Kopien beigefügt.": {
+    "de": "Zugeordnete Bilder, Dokumente und Sprachnotizen werden als Kopien beigefügt.",
+    "en": "Copies of the linked images, documents and voice notes are included."
+  },
+  "Originaltranskript einschließen": {
+    "de": "Originaltranskript einschließen",
+    "en": "Include original transcript"
+  },
+  "Zusätzliche Notizen und bereits eingefügte Sprachnotiz-Texte gehören unabhängig davon zu den Schritten.": {
+    "de": "Zusätzliche Notizen und bereits eingefügte Sprachnotiz-Texte gehören unabhängig davon zu den Schritten.",
+    "en": "Additional notes and previously inserted voice-note transcripts remain part of the steps regardless."
+  },
+  "Bilder und Anhänge vor Weitergabe prüfen. Der Export schwärzt keine Inhalte automatisch. Rohvideo, Ereignisprotokoll und Anmeldedateien werden nicht beigefügt.": {
+    "de": "Bilder und Anhänge vor Weitergabe prüfen. Der Export schwärzt keine Inhalte automatisch. Rohvideo, Ereignisprotokoll und Anmeldedateien werden nicht beigefügt.",
+    "en": "Review images and attachments before sharing. Export does not automatically redact content. Raw video, event logs and credential files are excluded."
+  },
+  "Exportiert den aktuellen Bearbeitungsstand. Die lokale Sitzung wird dadurch nicht gespeichert.": {
+    "de": "Exportiert den aktuellen Bearbeitungsstand. Die lokale Sitzung wird dadurch nicht gespeichert.",
+    "en": "Exports the current editor state. This does not save the local session."
+  },
+  "Export wird erstellt …": {
+    "de": "Export wird erstellt …",
+    "en": "Creating export …"
+  },
+  "ZIP speichern": {
+    "de": "ZIP speichern",
+    "en": "Save ZIP"
+  },
+  "Weitere Formate: Text und Daten": {
+    "de": "Weitere Formate: Text und Daten",
+    "en": "Other formats: text and data"
+  },
+  "Diese Formate enthalten keine eingebetteten Dateien.": {
+    "de": "Diese Formate enthalten keine eingebetteten Dateien.",
+    "en": "These formats contain no embedded files."
+  },
+  "Export außerhalb des Sitzungsordners speichern.": {
+    "de": "Export außerhalb des Sitzungsordners speichern.",
+    "en": "Save the export outside the session folder."
+  },
+  "Als ZIP-Datei speichern.": {
+    "de": "Als ZIP-Datei speichern.",
+    "en": "Save as a ZIP file."
+  },
+  "Anleitung ist größer als 250 MB. Zusatzdateien abwählen oder Umfang reduzieren.": {
+    "de": "Anleitung ist größer als 250 MB. Zusatzdateien abwählen oder Umfang reduzieren.",
+    "en": "The guide exceeds 250 MB. Exclude attached files or reduce the content."
+  },
+  "Bild fehlt oder ist zu groß.": {
+    "de": "Bild fehlt oder ist zu groß.",
+    "en": "Image is missing or too large."
+  },
+  "ZIP-Datei konnte nicht vollständig geschrieben werden.": {
+    "de": "ZIP-Datei konnte nicht vollständig geschrieben werden.",
+    "en": "The ZIP file could not be fully written."
+  },
+  "Als Schrittbild verwenden": {
+    "de": "Als Schrittbild verwenden",
+    "en": "Use as step image"
+  },
+  "Antworten sind zu lang oder nicht mehr zuordenbar. Bitte kürzen und erneut prüfen.": {
+    "de": "Antworten sind zu lang oder nicht mehr zuordenbar. Bitte kürzen und erneut prüfen.",
+    "en": "Answers are too long or no longer match a step. Shorten and review them."
+  },
+  "Bearbeitet eine lokale Kopie. Das Original bleibt lokal erhalten, im ZIP wird nur das gewählte bearbeitete Schrittbild verwendet.": {
+    "de": "Bearbeitet eine lokale Kopie. Das Original bleibt lokal erhalten, im ZIP wird nur das gewählte bearbeitete Schrittbild verwendet.",
+    "en": "Edits a local copy. The original stays local; the ZIP uses the selected edited step image."
+  },
+  "Beschriftung": {
+    "de": "Beschriftung",
+    "en": "Caption"
+  },
+  "Bild bearbeiten": {
+    "de": "Bild bearbeiten",
+    "en": "Edit image"
+  },
+  "Bild {count}": {
+    "de": "Bild {count}",
+    "en": "Image {count}"
+  },
+  "Bis zu vier Schrittbilder mitsenden.": {
+    "de": "Bis zu vier Schrittbilder mitsenden.",
+    "en": "Include up to four step images."
+  },
+  "Diese Antwort ist fachlich geprüft.": {
+    "de": "Diese Antwort ist fachlich geprüft.",
+    "en": "I have verified this answer."
+  },
+  "Dieses Modell kann Bilder auswerten.": {
+    "de": "Dieses Modell kann Bilder auswerten.",
+    "en": "This model supports image analysis."
+  },
+  "Erstellt eine eigenständige SKILL.md aus dem bearbeiteten Prozess. Prüfe Regeln und offene Fragen vor dem Export. Keine automatische Installation oder Ausführung.": {
+    "de": "Erstellt eine eigenständige SKILL.md aus dem bearbeiteten Prozess. Prüfe Regeln und offene Fragen vor dem Export. Keine automatische Installation oder Ausführung.",
+    "en": "Creates a standalone SKILL.md from the edited process. Review rules and open questions before export. No automatic installation or execution."
+  },
+  "Frage": {
+    "de": "Frage",
+    "en": "Question"
+  },
+  "Inhalt, Berechtigungen und offene Fragen geprüft.": {
+    "de": "Inhalt, Berechtigungen und offene Fragen geprüft.",
+    "en": "I have reviewed the content, permissions and open questions."
+  },
+  "Interview übernehmen": {
+    "de": "Interview übernehmen",
+    "en": "Apply interview"
+  },
+  "KI-Anfrage abbrechen": {
+    "de": "KI-Anfrage abbrechen",
+    "en": "Cancel AI request"
+  },
+  "Keine offenen Fragen gefunden. Ergänze bei Bedarf eigene Informationen direkt am Schritt.": {
+    "de": "Keine offenen Fragen gefunden. Ergänze bei Bedarf eigene Informationen direkt am Schritt.",
+    "en": "No open questions found. You can add information directly to a step."
+  },
+  "Kläre Gründe, Voraussetzungen und Ausnahmen. Nur ausdrücklich geprüfte Antworten werden in den Prozess übernommen. Entwürfe bleiben im Interview erhalten.": {
+    "de": "Kläre Gründe, Voraussetzungen und Ausnahmen. Nur ausdrücklich geprüfte Antworten werden in den Prozess übernommen. Entwürfe bleiben im Interview erhalten.",
+    "en": "Clarify reasons, prerequisites and exceptions. Only verified answers are applied to the process. Drafts remain in the interview."
+  },
+  "Letzte Markierung zurück": {
+    "de": "Letzte Markierung zurück",
+    "en": "Undo last mark"
+  },
+  "Letzte Änderung zurück": {
+    "de": "Letzte Änderung zurück",
+    "en": "Undo last change"
+  },
+  "Mit nächstem Schritt zusammenführen": {
+    "de": "Mit nächstem Schritt zusammenführen",
+    "en": "Merge with next step"
+  },
+  "Nur aktivieren, wenn der gewählte Modellname und Server Bildkontext unterstützen. Jede Bildübermittlung wird zusätzlich bestätigt.": {
+    "de": "Nur aktivieren, wenn der gewählte Modellname und Server Bildkontext unterstützen. Jede Bildübermittlung wird zusätzlich bestätigt.",
+    "en": "Enable only when the selected model and server support images. Each image transfer requires separate confirmation."
+  },
+  "Nächste Frage": {
+    "de": "Nächste Frage",
+    "en": "Next question"
+  },
+  "Optional mit KI ergänzen": {
+    "de": "Optional mit KI ergänzen",
+    "en": "Optionally enhance with AI"
+  },
+  "Original verwenden": {
+    "de": "Original verwenden",
+    "en": "Use original"
+  },
+  "SKILL.md exportieren": {
+    "de": "SKILL.md exportieren",
+    "en": "Export SKILL.md"
+  },
+  "Schritt teilen": {
+    "de": "Schritt teilen",
+    "en": "Split step"
+  },
+  "Schrittbild auswählen": {
+    "de": "Schrittbild auswählen",
+    "en": "Select step image"
+  },
+  "Skill erstellen": {
+    "de": "Skill erstellen",
+    "en": "Create skill"
+  },
+  "Text an {provider} senden.": {
+    "de": "Text an {provider} senden.",
+    "en": "Send text to {provider}."
+  },
+  "Verwendet die ersten vier bebilderten Schritte, bevorzugt bearbeitete Bilder. Bei aktivem erweitertem Schutz ist OCR erforderlich. Bilder vorab auf vertrauliche Inhalte prüfen.": {
+    "de": "Verwendet die ersten vier bebilderten Schritte, bevorzugt bearbeitete Bilder. Bei aktivem erweitertem Schutz ist OCR erforderlich. Bilder vorab auf vertrauliche Inhalte prüfen.",
+    "en": "Uses the first four steps with images, preferring edited images. Advanced protection requires OCR. Check images for confidential content first."
+  },
+  "Videos und Zusatzdateien werden nicht übertragen. Schrittbilder nur bei gesonderter Auswahl unten.": {
+    "de": "Videos und Zusatzdateien werden nicht übertragen. Schrittbilder nur bei gesonderter Auswahl unten.",
+    "en": "Videos and attachments are not sent. Step images are included only when separately selected below."
+  },
+  "Werkzeug wählen und auf dem Bild ziehen. Text wird an der Startposition eingefügt. Schwarz wird beim Speichern deckend eingebrannt.": {
+    "de": "Werkzeug wählen und auf dem Bild ziehen. Text wird an der Startposition eingefügt. Schwarz wird beim Speichern deckend eingebrannt.",
+    "en": "Choose a tool and drag on the image. Text appears at the starting point. Black masks are baked into the saved pixels."
+  },
+  "Wird verarbeitet …": {
+    "de": "Wird verarbeitet …",
+    "en": "Processing …"
+  },
+  "Wissen und Skills": {
+    "de": "Wissen und Skills",
+    "en": "Knowledge and skills"
+  },
+  "Wissensinterview": {
+    "de": "Wissensinterview",
+    "en": "Knowledge interview"
+  },
+  "Zurück": {
+    "de": "Zurück",
+    "en": "Back"
+  },
+  "Zurücksetzen": {
+    "de": "Zurücksetzen",
+    "en": "Reset"
+  },
+  "Übermittelt bearbeitete Schritttexte und Transkript an den gewählten Anbieter. Bilder und Zusatzdateien bleiben lokal. Antworten werden nicht automatisch bestätigt.": {
+    "de": "Übermittelt bearbeitete Schritttexte und Transkript an den gewählten Anbieter. Bilder und Zusatzdateien bleiben lokal. Antworten werden nicht automatisch bestätigt.",
+    "en": "Sends edited step text and transcript to the selected provider. Images and attachments stay local. Answers are never automatically verified."
+  },
+  "Zuschneiden": {
+    "de": "Zuschneiden",
+    "en": "Crop"
+  },
+  "Schwärzen": {
+    "de": "Schwärzen",
+    "en": "Redact"
+  },
+  "Rahmen": {
+    "de": "Rahmen",
+    "en": "Box"
+  },
+  "Pfeil": {
+    "de": "Pfeil",
+    "en": "Arrow"
+  },
+  "Text": {
+    "de": "Text",
+    "en": "Text"
+  },
+  "Bild wird gespeichert …": {
+    "de": "Bild wird gespeichert …",
+    "en": "Saving image …"
+  },
+  "Bearbeitung übernehmen": {
+    "de": "Bearbeitung übernehmen",
+    "en": "Apply edits"
+  },
+  "Weitere Fragen vorschlagen": {
+    "de": "Weitere Fragen vorschlagen",
+    "en": "Suggest more questions"
+  },
+  "Skill mit KI überarbeiten": {
+    "de": "Skill mit KI überarbeiten",
+    "en": "Refine skill with AI"
+  },
+  "An ScreenToGif übergeben": {
+    "de": "An ScreenToGif übergeben",
+    "en": "Send to ScreenToGif"
+  },
+  "Animation mit ScreenToGif": {
+    "de": "Animation mit ScreenToGif",
+    "en": "Animate with ScreenToGif"
+  },
+  "Anzeigedauer pro Schritt (Millisekunden)": {
+    "de": "Anzeigedauer pro Schritt (Millisekunden)",
+    "en": "Display time per step (milliseconds)"
+  },
+  "Ausgabeordner": {
+    "de": "Ausgabeordner",
+    "en": "Output folder"
+  },
+  "Ausgabeordner öffnen": {
+    "de": "Ausgabeordner öffnen",
+    "en": "Open output folder"
+  },
+  "Ausgewähltes Bild oder Video": {
+    "de": "Ausgewähltes Bild oder Video",
+    "en": "Selected image or video"
+  },
+  "Bildfolge aus Schrittbildern": {
+    "de": "Bildfolge aus Schrittbildern",
+    "en": "Sequence of step images"
+  },
+  "Bis Schritt": {
+    "de": "Bis Schritt",
+    "en": "To step"
+  },
+  "Die verwaltete portable Version enthält ihre Laufzeit. Keine Administratorrechte und kein automatischer Start nach dem Download.": {
+    "de": "Die verwaltete portable Version enthält ihre Laufzeit. Keine Administratorrechte und kein automatischer Start nach dem Download.",
+    "en": "The managed portable version includes its runtime. No administrator rights or automatic launch after download."
+  },
+  "Download abbrechen": {
+    "de": "Download abbrechen",
+    "en": "Cancel download"
+  },
+  "Ergebnis übernehmen": {
+    "de": "Ergebnis übernehmen",
+    "en": "Import result"
+  },
+  "Ergebnisdatei auswählen und übernehmen": {
+    "de": "Ergebnisdatei auswählen und übernehmen",
+    "en": "Choose and import result file"
+  },
+  "Ergebnisse werden als neue lokale Anhänge kopiert. Maximal 25 MB. Danach den Prozess speichern. Keine automatische KI-Übermittlung.": {
+    "de": "Ergebnisse werden als neue lokale Anhänge kopiert. Maximal 25 MB. Danach den Prozess speichern. Keine automatische KI-Übermittlung.",
+    "en": "Results are copied as new local attachments, up to 25 MB. Save the process afterwards. Nothing is automatically sent to AI."
+  },
+  "Frühere Bearbeitungen fortsetzen": {
+    "de": "Frühere Bearbeitungen fortsetzen",
+    "en": "Resume previous edits"
+  },
+  "Gespeicherte Klickposition markieren.": {
+    "de": "Gespeicherte Klickposition markieren.",
+    "en": "Mark the saved click position."
+  },
+  "Herunterladen und einrichten": {
+    "de": "Herunterladen und einrichten",
+    "en": "Download and set up"
+  },
+  "In ScreenToGif als GIF, Bild oder Video exportieren. Für direkte Erkennung den folgenden Ausgabeordner verwenden. Anschließend das Ergebnis prüfen und übernehmen.": {
+    "de": "In ScreenToGif als GIF, Bild oder Video exportieren. Für direkte Erkennung den folgenden Ausgabeordner verwenden. Anschließend das Ergebnis prüfen und übernehmen.",
+    "en": "Export a GIF, image or video in ScreenToGif. Use the output folder below for direct detection. Then review and import the result."
+  },
+  "In ScreenToGif öffnen": {
+    "de": "In ScreenToGif öffnen",
+    "en": "Open in ScreenToGif"
+  },
+  "Kurze Abläufe als Animation erklären: lokal an ScreenToGif übergeben, dort bearbeiten und das Ergebnis wieder diesem Schritt hinzufügen.": {
+    "de": "Kurze Abläufe als Animation erklären: lokal an ScreenToGif übergeben, dort bearbeiten und das Ergebnis wieder diesem Schritt hinzufügen.",
+    "en": "Explain a short workflow with animation: send a local copy to ScreenToGif, edit it there and add the result to this step."
+  },
+  "Lizenz ansehen": {
+    "de": "Lizenz ansehen",
+    "en": "View license"
+  },
+  "Mit ScreenToGif bearbeiten": {
+    "de": "Mit ScreenToGif bearbeiten",
+    "en": "Edit with ScreenToGif"
+  },
+  "OPTIONALES WERKZEUG": {
+    "de": "OPTIONALES WERKZEUG",
+    "en": "OPTIONAL TOOL"
+  },
+  "Offizielle Version und Quelle": {
+    "de": "Offizielle Version und Quelle",
+    "en": "Official release and source"
+  },
+  "Offizielles GitHub-Archiv, feste Version und SHA-256-Prüfung. ScreenToGif bleibt eine separate Anwendung mit eigener Lizenz.": {
+    "de": "Offizielles GitHub-Archiv, feste Version und SHA-256-Prüfung. ScreenToGif bleibt eine separate Anwendung mit eigener Lizenz.",
+    "en": "Official GitHub archive, pinned version and SHA-256 verification. ScreenToGif remains a separate application with its own license."
+  },
+  "Originalvideo der Sitzung": {
+    "de": "Originalvideo der Sitzung",
+    "en": "Original session video"
+  },
+  "Originalvideo lokal an ScreenToGif übergeben. Es kann Inhalte enthalten, die im Schrittbild bereits geschwärzt wurden.": {
+    "de": "Originalvideo lokal an ScreenToGif übergeben. Es kann Inhalte enthalten, die im Schrittbild bereits geschwärzt wurden.",
+    "en": "Send the original video locally to ScreenToGif. It may contain content already redacted in step images."
+  },
+  "Pfad konnte nicht kopiert werden.": {
+    "de": "Pfad konnte nicht kopiert werden.",
+    "en": "Could not copy the path."
+  },
+  "ScreenToGif einrichten": {
+    "de": "ScreenToGif einrichten",
+    "en": "Set up ScreenToGif"
+  },
+  "ScreenToGif {version} optional herunterladen (~70 MB).": {
+    "de": "ScreenToGif {version} optional herunterladen (~70 MB).",
+    "en": "Optionally download ScreenToGif {version} (~70 MB)."
+  },
+  "ScreenToGif-Ergebnis hinzugefügt. Prozess speichern.": {
+    "de": "ScreenToGif-Ergebnis hinzugefügt. Prozess speichern.",
+    "en": "ScreenToGif result added. Save the process."
+  },
+  "Version und Lizenz": {
+    "de": "Version und Lizenz",
+    "en": "Version and license"
+  },
+  "Videoimport kann in ScreenToGif einen zusätzlichen Codec oder FFmpeg benötigen.": {
+    "de": "Videoimport kann in ScreenToGif einen zusätzlichen Codec oder FFmpeg benötigen.",
+    "en": "Importing video may require an additional codec or FFmpeg in ScreenToGif."
+  },
+  "Von Schritt": {
+    "de": "Von Schritt",
+    "en": "From step"
+  },
+  "Vorhandene EXE auswählen": {
+    "de": "Vorhandene EXE auswählen",
+    "en": "Choose existing EXE"
+  },
+  "Weitere Bearbeitung vorbereiten": {
+    "de": "Weitere Bearbeitung vorbereiten",
+    "en": "Prepare another edit"
+  },
+  "Zum Bearbeiten zuerst eine Aufnahme und einen Zielschritt öffnen.": {
+    "de": "Zum Bearbeiten zuerst eine Aufnahme und einen Zielschritt öffnen.",
+    "en": "Open a recording and a target step before editing."
+  },
+  "Zusätzlichen kurzen Clip aufnehmen": {
+    "de": "Zusätzlichen kurzen Clip aufnehmen",
+    "en": "Record an additional short clip"
+  },
+  "Öffnet den ScreenToGif-Recorder ohne Aufnahmestart. Bereich wählen und dort bewusst starten. Unser Aufnahmeschutz gilt in diesem externen Recorder nicht automatisch.": {
+    "de": "Öffnet den ScreenToGif-Recorder ohne Aufnahmestart. Bereich wählen und dort bewusst starten. Unser Aufnahmeschutz gilt in diesem externen Recorder nicht automatisch.",
+    "en": "Opens the ScreenToGif recorder without starting capture. Choose a region and start it there. Our recording protection does not automatically apply to this external recorder."
+  },
+  "Übernehmen": {
+    "de": "Übernehmen",
+    "en": "Import"
+  },
+  "Übernimmt bis zu 60 gewählte Schrittbilder mit bearbeiteten Bildern und fester Dauer. Für kontinuierliche Bewegung das Sitzungsvideo wählen. Originale bleiben erhalten.": {
+    "de": "Übernimmt bis zu 60 gewählte Schrittbilder mit bearbeiteten Bildern und fester Dauer. Für kontinuierliche Bewegung das Sitzungsvideo wählen. Originale bleiben erhalten.",
+    "en": "Sends up to 60 selected step images, preferring edited images, with a fixed delay. Choose the session video for continuous movement. Originals are preserved."
+  },
+  "Übernommenes Bild auch als Schrittbild verwenden.": {
+    "de": "Übernommenes Bild auch als Schrittbild verwenden.",
+    "en": "Also use the imported image as the step image."
+  },
+  "ScreenToGif ist eingerichtet.": {
+    "de": "ScreenToGif ist eingerichtet.",
+    "en": "ScreenToGif is configured."
+  },
+  "ScreenToGif ist optional.": {
+    "de": "ScreenToGif ist optional.",
+    "en": "ScreenToGif is optional."
+  },
+  "Pfad kopiert": {
+    "de": "Pfad kopiert",
+    "en": "Path copied"
+  },
+  "Ausgabeordner kopieren": {
+    "de": "Ausgabeordner kopieren",
+    "en": "Copy output folder"
+  },
+  "vLLM · lokal": {
+    "de": "vLLM · lokal",
+    "en": "vLLM · local"
+  },
+  "Lokale Server werden gesucht …": {
+    "de": "Lokale Server werden gesucht …",
+    "en": "Searching for local servers …"
+  },
+  "Kein freies Anbieterprofil. Einen vorhandenen Anbieter mit der Basis-URL einrichten.": {
+    "de": "Kein freies Anbieterprofil. Einen vorhandenen Anbieter mit der Basis-URL einrichten.",
+    "en": "No provider profile available. Configure an existing provider with the base URL."
+  },
+  "Server übernommen. Modell prüfen und Einstellungen speichern.": {
+    "de": "Server übernommen. Modell prüfen und Einstellungen speichern.",
+    "en": "Server selected. Check the model and save the settings."
+  },
+  "Vorhandene lokale Modelle verwenden": {
+    "de": "Vorhandene lokale Modelle verwenden",
+    "en": "Use existing local models"
+  },
+  "Nutze deine vorhandene Ollama-, LM-Studio- oder vLLM-Installation. Starte dort den API-Server. Workflow Studio fragt nur die Modellliste ab; es installiert, kopiert oder lädt keine Modelle herunter.": {
+    "de": "Nutze deine vorhandene Ollama-, LM-Studio- oder vLLM-Installation. Starte dort den API-Server. Workflow Studio fragt nur die Modellliste ab; es installiert, kopiert oder lädt keine Modelle herunter.",
+    "en": "Use your existing Ollama, LM Studio or vLLM installation. Start its API server. Workflow Studio only requests the model list; it does not install, copy or download models."
+  },
+  "Lokale Server suchen": {
+    "de": "Lokale Server suchen",
+    "en": "Find local servers"
+  },
+  "Suche nur auf diesem Rechner: Ollama 11434, LM Studio 1234, vLLM 8000. Andere Ports und interne Server unten über die Basis-URL einrichten. Die Suche erkennt kompatible Schnittstellen, nicht die installierte Anwendung.": {
+    "de": "Suche nur auf diesem Rechner: Ollama 11434, LM Studio 1234, vLLM 8000. Andere Ports und interne Server unten über die Basis-URL einrichten. Die Suche erkennt kompatible Schnittstellen, nicht die installierte Anwendung.",
+    "en": "Searches this computer only: Ollama 11434, LM Studio 1234, vLLM 8000. Configure other ports and internal servers using the base URL below. Discovery detects compatible interfaces, not the installed application."
+  },
+  "{count} Modelle verfügbar.": {
+    "de": "{count} Modelle verfügbar.",
+    "en": "{count} models available."
+  },
+  "Server erreicht, aber keine Modellliste verfügbar. Modell oder Zugang manuell prüfen.": {
+    "de": "Server erreicht, aber keine Modellliste verfügbar. Modell oder Zugang manuell prüfen.",
+    "en": "Server reached, but no model list available. Check the model or access settings manually."
+  },
+  "Nicht erreichbar oder Zugriff erforderlich. Server starten oder Basis-URL und Schlüssel manuell eintragen.": {
+    "de": "Nicht erreichbar oder Zugriff erforderlich. Server starten oder Basis-URL und Schlüssel manuell eintragen.",
+    "en": "Unavailable or authentication required. Start the server or enter the base URL and key manually."
+  },
+  "{provider} verwenden": {
+    "de": "{provider} verwenden",
+    "en": "Use {provider}"
+  },
+  "Vorhandenen vLLM-Server mit einem Chatmodell verwenden. Die Modellliste zeigt die vom Server bereitgestellten Modelle. Für einen internen Server die freigegebene HTTPS-Basis-URL inklusive /v1 eintragen.": {
+    "de": "Vorhandenen vLLM-Server mit einem Chatmodell verwenden. Die Modellliste zeigt die vom Server bereitgestellten Modelle. Für einen internen Server die freigegebene HTTPS-Basis-URL inklusive /v1 eintragen.",
+    "en": "Use an existing vLLM server with a chat model. The model list shows the models served by the server. For an internal server, enter the approved HTTPS base URL including /v1."
+  },
+  "Fensteransicht": {
+    "de": "Fensteransicht",
+    "en": "Window layout"
+  },
+  "Integriert · ein Fenster": {
+    "de": "Integriert · ein Fenster",
+    "en": "Integrated · one window"
+  },
+  "Angedockt · gekoppelte Fenster": {
+    "de": "Angedockt · gekoppelte Fenster",
+    "en": "Docked · linked windows"
+  },
+  "Frei schwebend · unabhängig": {
+    "de": "Frei schwebend · unabhängig",
+    "en": "Floating · independent"
+  },
+  "Unbekannte Fensteransicht.": {
+    "de": "Unbekannte Fensteransicht.",
+    "en": "Unknown window layout."
+  },
+  "Fensteransicht im Studio ändern.": {
+    "de": "Fensteransicht im Studio ändern.",
+    "en": "Change the window layout in Studio."
+  },
+  "Fensteransicht erst nach der Aufnahme ändern.": {
+    "de": "Fensteransicht erst nach der Aufnahme ändern.",
+    "en": "Change the window layout after recording."
+  },
+  "Fensteransicht konnte nicht geändert werden.": {
+    "de": "Fensteransicht konnte nicht geändert werden.",
+    "en": "Could not change the window layout."
+  },
+  "Zum Studio": {
+    "de": "Zum Studio",
+    "en": "Back to Studio"
+  },
+  "Zugang und Bildanalyse": {
+    "de": "Zugang und Bildanalyse",
+    "en": "Access and image analysis"
+  },
+  "Einstellungen": {
+    "de": "Einstellungen",
+    "en": "Settings"
+  },
+  "Allgemein": {
+    "de": "Allgemein",
+    "en": "General"
+  },
+  "Firma & Gestaltung": {
+    "de": "Firma & Gestaltung",
+    "en": "Company & appearance"
+  },
+  "Werkzeuge": {
+    "de": "Werkzeuge",
+    "en": "Tools"
+  },
+  "Firmenname": {
+    "de": "Firmenname",
+    "en": "Company name"
+  },
+  "Firmenlogo": {
+    "de": "Firmenlogo",
+    "en": "Company logo"
+  },
+  "Akzentfarbe": {
+    "de": "Akzentfarbe",
+    "en": "Accent colour"
+  },
+  "Zweite Farbe": {
+    "de": "Zweite Farbe",
+    "en": "Secondary colour"
+  },
+  "Prüfmethodik": {
+    "de": "Prüfmethodik",
+    "en": "Review method"
+  },
+  "Prüfdrehbuch": {
+    "de": "Prüfdrehbuch",
+    "en": "Review script"
+  },
+  "Prozess bewerten": {
+    "de": "Prozess bewerten",
+    "en": "Review process"
+  },
+  "Weitere Schrittaktionen": {
+    "de": "Weitere Schrittaktionen",
+    "en": "More step actions"
+  },
+  "Flussdiagramm (SVG)": {
+    "de": "Flussdiagramm (SVG)",
+    "en": "Flowchart (SVG)"
+  },
+  "Bearbeitbar für draw.io": {
+    "de": "Bearbeitbar für draw.io",
+    "en": "Editable for draw.io"
+  },
+  "Mermaid exportieren": {
+    "de": "Mermaid exportieren",
+    "en": "Export Mermaid"
+  },
+  "Weitere Formate: Markdown, Diagramm und Daten": {
+    "de": "Weitere Formate: Markdown, Diagramm und Daten",
+    "en": "More formats: Markdown, diagrams and data"
+  },
+  "1 Fenster · alles": {
+    "de": "1 Fenster · alles",
+    "en": "1 window · everything"
+  },
+  "2 Fenster · Recorder und Studio": {
+    "de": "2 Fenster · Recorder und Studio",
+    "en": "2 windows · recorder and studio"
+  },
+  "1 Fenster · nur Aufnahmen": {
+    "de": "1 Fenster · nur Aufnahmen",
+    "en": "1 window · recording only"
+  },
+  "Standard wiederherstellen": {
+    "de": "Standard wiederherstellen",
+    "en": "Restore defaults"
+  },
+  "Logo entfernen": {
+    "de": "Logo entfernen",
+    "en": "Remove logo"
+  },
+  "Hauptaktion": {
+    "de": "Hauptaktion",
+    "en": "Primary action"
+  },
+  "Zweite Aktion": {
+    "de": "Zweite Aktion",
+    "en": "Secondary action"
+  },
+  "Bewertung erstellen": {
+    "de": "Bewertung erstellen",
+    "en": "Create review"
+  },
+  "Bericht zum Prozess übernehmen": {
+    "de": "Bericht zum Prozess übernehmen",
+    "en": "Attach report to process"
+  },
+  "Drehbuch für diesen Prozess übernehmen": {
+    "de": "Drehbuch für diesen Prozess übernehmen",
+    "en": "Use script for this process"
+  },
+  "Verwendete Prozessdaten ansehen": {
+    "de": "Verwendete Prozessdaten ansehen",
+    "en": "Show process data used"
+  },
+  "Prozess wird bewertet …": {
+    "de": "Prozess wird bewertet …",
+    "en": "Reviewing process …"
+  },
+  "Einfachheit und Verständlichkeit": {
+    "de": "Einfachheit und Verständlichkeit",
+    "en": "Simplicity and clarity"
+  },
+  "Optimierungspotenzial": {
+    "de": "Optimierungspotenzial",
+    "en": "Potential improvements"
+  },
+  "KI und Automatisierung": {
+    "de": "KI und Automatisierung",
+    "en": "AI and automation"
+  },
+  "Infrastruktur und Umgebung": {
+    "de": "Infrastruktur und Umgebung",
+    "en": "Infrastructure and environment"
+  },
+  "Prüfung nach Methodik": {
+    "de": "Prüfung nach Methodik",
+    "en": "Method-based review"
+  },
+  "Offene Fragen": {
+    "de": "Offene Fragen",
+    "en": "Open questions"
+  },
+  "Allgemeine Prozessprüfung": {
+    "de": "Allgemeine Prozessprüfung",
+    "en": "General process review"
+  },
+  "Eigenes Prüfdrehbuch": {
+    "de": "Eigenes Prüfdrehbuch",
+    "en": "Custom review script"
+  },
+  "Einstellungsbereiche": {
+    "de": "Einstellungsbereiche",
+    "en": "Settings sections"
+  },
+  "Vorschau": {
+    "de": "Vorschau",
+    "en": "Preview"
+  },
+  "Leer lassen für Workflow Studio": {
+    "de": "Leer lassen für Workflow Studio",
+    "en": "Leave blank for Workflow Studio"
+  },
+  "Für Recorder, Studio und neue HTML-Anleitungen. Lokal auf diesem Rechner gespeichert.": {
+    "de": "Für Recorder, Studio und neue HTML-Anleitungen. Lokal auf diesem Rechner gespeichert.",
+    "en": "For the recorder, studio and new HTML guides. Saved locally on this computer."
+  },
+  "Gestaltung konnte nicht gespeichert werden.": {
+    "de": "Gestaltung konnte nicht gespeichert werden.",
+    "en": "Could not save appearance."
+  },
+  "Logo: PNG, JPEG oder WebP bis 2 MB auswählen.": {
+    "de": "Logo: PNG, JPEG oder WebP bis 2 MB auswählen.",
+    "en": "Choose a PNG, JPEG or WebP logo up to 2 MB."
+  },
+  "Verständlichkeit, Verbesserung, KI-Einsatz und Voraussetzungen als gesonderten Vorschlag prüfen.": {
+    "de": "Verständlichkeit, Verbesserung, KI-Einsatz und Voraussetzungen als gesonderten Vorschlag prüfen.",
+    "en": "Review clarity, improvements, AI opportunities and prerequisites as a separate proposal."
+  },
+  "Modell zuerst in den Einstellungen einrichten.": {
+    "de": "Modell zuerst in den Einstellungen einrichten.",
+    "en": "Configure a model in Settings first."
+  },
+  "separater Analyseweg": {
+    "de": "separater Analyseweg",
+    "en": "separate analysis workflow"
+  },
+  "Prozesstext und Prüfdrehbuch an den gewählten Anbieter senden. Bilder, Anhänge und Rohtranskript bleiben ausgenommen.": {
+    "de": "Prozesstext und Prüfdrehbuch an den gewählten Anbieter senden. Bilder, Anhänge und Rohtranskript bleiben ausgenommen.",
+    "en": "Send process text and review script to the selected provider. Images, attachments and raw transcript are excluded."
+  },
+  "KI-Vorschlag – fachlich prüfen": {
+    "de": "KI-Vorschlag – fachlich prüfen",
+    "en": "AI proposal – review before use"
+  },
+  "Der Prozess wurde seit dieser Bewertung geändert. Neu bewerten.": {
+    "de": "Der Prozess wurde seit dieser Bewertung geändert. Neu bewerten.",
+    "en": "The process has changed since this review. Run a new review."
+  },
+  "Im Wiki ablegen": {
+    "de": "Im Wiki ablegen",
+    "en": "Publish to wiki"
+  },
+  "Neue Seite aus dem aktuellen Prozesstext erstellen. Bilder, Anhänge und Rohtranskript werden nicht übertragen.": {
+    "de": "Neue Seite aus dem aktuellen Prozesstext erstellen. Bilder, Anhänge und Rohtranskript werden nicht übertragen.",
+    "en": "Create a new page from the current process text. Images, attachments and raw transcript are excluded."
+  },
+  "Ziel": {
+    "de": "Ziel",
+    "en": "Destination"
+  },
+  "Noch kein Wiki-Ordner gewählt.": {
+    "de": "Noch kein Wiki-Ordner gewählt.",
+    "en": "No wiki folder selected."
+  },
+  "Wiki-Ordner wählen": {
+    "de": "Wiki-Ordner wählen",
+    "en": "Select wiki folder"
+  },
+  "Outline-Server": {
+    "de": "Outline-Server",
+    "en": "Outline server"
+  },
+  "Sammlungs-ID": {
+    "de": "Sammlungs-ID",
+    "en": "Collection ID"
+  },
+  "Übergeordnete Notion-Seiten-ID": {
+    "de": "Übergeordnete Notion-Seiten-ID",
+    "en": "Parent Notion page ID"
+  },
+  "Geschützt gespeichert; leer lassen zum Beibehalten": {
+    "de": "Geschützt gespeichert; leer lassen zum Beibehalten",
+    "en": "Stored securely; leave blank to keep"
+  },
+  "Schlüssel eingeben": {
+    "de": "Schlüssel eingeben",
+    "en": "Enter key"
+  },
+  "Die Integration benötigt Schreibzugriff auf das gewählte Ziel.": {
+    "de": "Die Integration benötigt Schreibzugriff auf das gewählte Ziel.",
+    "en": "The integration needs write access to the selected destination."
+  },
+  "Verbindung lokal speichern": {
+    "de": "Verbindung lokal speichern",
+    "en": "Save connection locally"
+  },
+  "KI-Bewertung als Vorschlag einschließen": {
+    "de": "KI-Bewertung als Vorschlag einschließen",
+    "en": "Include AI review as a proposal"
+  },
+  "Inhaltsvorschau": {
+    "de": "Inhaltsvorschau",
+    "en": "Content preview"
+  },
+  "Ziel und Inhalt geprüft. Neue Seite jetzt erstellen.": {
+    "de": "Ziel und Inhalt geprüft. Neue Seite jetzt erstellen.",
+    "en": "Destination and content reviewed. Create a new page now."
+  },
+  "Gespeichert": {
+    "de": "Gespeichert",
+    "en": "Saved"
+  },
+  "Wird geschrieben …": {
+    "de": "Wird geschrieben …",
+    "en": "Writing …"
+  },
+  "Neue Wiki-Seite erstellen": {
+    "de": "Neue Wiki-Seite erstellen",
+    "en": "Create new wiki page"
+  },
+  "Wiki-Einstellungen konnten nicht geladen werden.": {
+    "de": "Wiki-Einstellungen konnten nicht geladen werden.",
+    "en": "Could not load wiki settings."
+  },
+  "Erklärungen aus der Aufnahme": {
+    "de": "Erklärungen aus der Aufnahme",
+    "en": "Narration from the recording"
+  },
+  "Nach Zeit zugeordnet. Text prüfen, bearbeiten oder einem Feld zuweisen.": {
+    "de": "Nach Zeit zugeordnet. Text prüfen, bearbeiten oder einem Feld zuweisen.",
+    "en": "Assigned by time. Review, edit or assign the text to a field."
+  },
+  "Aufnahmeerklärung": {
+    "de": "Aufnahmeerklärung",
+    "en": "Recording narration"
+  },
+  "Einem Feld zuweisen": {
+    "de": "Einem Feld zuweisen",
+    "en": "Assign to a field"
+  },
+  "Beschreibung": {
+    "de": "Beschreibung",
+    "en": "Description"
+  },
+  "Erklärung zur Aufnahme": {
+    "de": "Erklärung zur Aufnahme",
+    "en": "Recording narration"
+  },
+  "Die Programmversion im Hintergrund ist veraltet. Prozess speichern und Workflow Studio vollständig neu starten.": {
+    "en": "The background application is outdated. Save your process and fully restart Workflow Studio.",
+    "de": "Die Programmversion im Hintergrund ist veraltet. Prozess speichern und Workflow Studio vollständig neu starten."
+  },
+  "Kein Mikrofon verfügbar. Mikrofon anschließen und die Geräteliste aktualisieren.": {
+    "en": "No microphone is available. Connect a microphone and refresh the device list.",
+    "de": "Kein Mikrofon verfügbar. Mikrofon anschließen und die Geräteliste aktualisieren."
+  },
+  "Mikrofonzugriff wurde nicht erlaubt. Zugriff in den Windows-Datenschutzeinstellungen prüfen.": {
+    "en": "Microphone access was denied. Check access in Windows privacy settings.",
+    "de": "Mikrofonzugriff wurde nicht erlaubt. Zugriff in den Windows-Datenschutzeinstellungen prüfen."
+  },
+  "Das Mikrofon ist nicht verfügbar oder wird von einer anderen Anwendung belegt.": {
+    "en": "The microphone is unavailable or in use by another application.",
+    "de": "Das Mikrofon ist nicht verfügbar oder wird von einer anderen Anwendung belegt."
+  },
+  "Das gewählte Mikrofon ist nicht mehr verfügbar. Ein anderes Gerät wählen.": {
+    "en": "The selected microphone is no longer available. Choose another device.",
+    "de": "Das gewählte Mikrofon ist nicht mehr verfügbar. Ein anderes Gerät wählen."
+  },
+  "Mikrofon für Sprachnotizen": {
+    "en": "Microphone for voice notes",
+    "de": "Mikrofon für Sprachnotizen"
+  },
+  "Windows-Standardmikrofon": {
+    "en": "Windows default microphone",
+    "de": "Windows-Standardmikrofon"
+  },
+  "Gespeichertes Mikrofon nicht verbunden": {
+    "en": "Saved microphone is disconnected",
+    "de": "Gespeichertes Mikrofon nicht verbunden"
+  },
+  "Geräteliste aktualisieren": {
+    "en": "Refresh devices",
+    "de": "Geräteliste aktualisieren"
+  },
+  "Aktuell wird kein Mikrofon erkannt. Eine Audiodatei kann alternativ hinzugefügt werden.": {
+    "en": "No microphone is currently detected. You can add an audio file instead.",
+    "de": "Aktuell wird kein Mikrofon erkannt. Eine Audiodatei kann alternativ hinzugefügt werden."
+  },
+  "Screenshot": {
+    "en": "Screenshot",
+    "de": "Screenshot"
+  },
+  "Sprache": {
+    "en": "Voice",
+    "de": "Sprache"
+  },
+  "Datei": {
+    "en": "File",
+    "de": "Datei"
+  },
+  "Farbvorlage": {
+    "de": "Farbvorlage",
+    "en": "Color preset"
+  },
+  "Eigene Farben": {
+    "de": "Eigene Farben",
+    "en": "Custom colors"
+  },
+  "Schrittaktionen": {
+    "de": "Schrittaktionen",
+    "en": "Step actions"
+  },
+  "Weitere Möglichkeiten": {
+    "de": "Weitere Möglichkeiten",
+    "en": "More options"
+  },
+  "KI & lokale Modelle": {
+    "de": "KI & lokale Modelle",
+    "en": "AI & local models"
+  },
+  "Was wird aufgenommen?": {
+    "de": "Was wird aufgenommen?",
+    "en": "What gets recorded?"
+  },
+  "Aufnahme fortsetzen": {
+    "de": "Aufnahme fortsetzen",
+    "en": "Continue recording"
+  },
+  "Aufnahme speichern und beenden": {
+    "de": "Aufnahme speichern und beenden",
+    "en": "Save recording and quit"
+  },
+  "Eine Aufnahme läuft noch.": {
+    "de": "Eine Aufnahme läuft noch.",
+    "en": "A recording is still running."
+  },
+  "Beim Beenden wird die Aufnahme gestoppt und lokal gespeichert.": {
+    "de": "Beim Beenden wird die Aufnahme gestoppt und lokal gespeichert.",
+    "en": "Quitting will stop the recording and save it locally."
+  },
+  "Änderungen vor dem Schließen speichern?": {
+    "de": "Änderungen vor dem Schließen speichern?",
+    "en": "Save changes before closing?"
+  },
+  "Ein Vorgang läuft noch. Warte auf den Abschluss oder kehre zum Studio zurück.": {
+    "de": "Ein Vorgang läuft noch. Warte auf den Abschluss oder kehre zum Studio zurück.",
+    "en": "An operation is still running. Wait for it to finish or return to the studio."
+  },
+  "Deine letzten Änderungen sind noch nicht gespeichert.": {
+    "de": "Deine letzten Änderungen sind noch nicht gespeichert.",
+    "en": "Your latest changes have not been saved yet."
+  },
+  "Weiterbearbeiten": {
+    "de": "Weiterbearbeiten",
+    "en": "Continue editing"
+  },
+  "Ohne Speichern schließen": {
+    "de": "Ohne Speichern schließen",
+    "en": "Close without saving"
+  },
+  "Speichern und schließen": {
+    "de": "Speichern und schließen",
+    "en": "Save and close"
+  },
+  "Studio schließen?": {
+    "de": "Studio schließen?",
+    "en": "Close studio?"
+  },
+  "Der Vorgang ist abgeschlossen. Du kannst das Studio jetzt schließen.": {
+    "de": "Der Vorgang ist abgeschlossen. Du kannst das Studio jetzt schließen.",
+    "en": "The operation has finished. You can now close the studio."
+  },
+  "Löschschutz": {
+    "de": "Löschschutz",
+    "en": "Deletion protection"
+  },
+  "Löschen schützen": {
+    "de": "Löschen schützen",
+    "en": "Protect deletion"
+  },
+  "Optionales Kennwort für das Löschen von Aufnahmen, Schritten und Anhängen in dieser App. Kein Schutz gegen direkten Dateizugriff in Windows.": {
+    "de": "Optionales Kennwort für das Löschen von Aufnahmen, Schritten und Anhängen in dieser App. Kein Schutz gegen direkten Dateizugriff in Windows.",
+    "en": "Optional password for deleting recordings, steps and attachments in this app. Does not protect against direct file access in Windows."
+  },
+  "Löschkennwort": {
+    "de": "Löschkennwort",
+    "en": "Deletion password"
+  },
+  "Bisheriges Löschkennwort": {
+    "de": "Bisheriges Löschkennwort",
+    "en": "Current deletion password"
+  },
+  "Neues Löschkennwort": {
+    "de": "Neues Löschkennwort",
+    "en": "New deletion password"
+  },
+  "Kennwort wiederholen": {
+    "de": "Kennwort wiederholen",
+    "en": "Repeat password"
+  },
+  "Kennwort speichern": {
+    "de": "Kennwort speichern",
+    "en": "Save password"
+  },
+  "Kennwortschutz abschalten": {
+    "de": "Kennwortschutz abschalten",
+    "en": "Disable password protection"
+  },
+  "Kennwortschutz aktiv": {
+    "de": "Kennwortschutz aktiv",
+    "en": "Password protection active"
+  },
+  "Kennwortschutz nicht aktiv": {
+    "de": "Kennwortschutz nicht aktiv",
+    "en": "Password protection inactive"
+  },
+  "Mindestens 8 Zeichen. Zum Ändern oder Abschalten wird das bisherige Kennwort benötigt.": {
+    "de": "Mindestens 8 Zeichen. Zum Ändern oder Abschalten wird das bisherige Kennwort benötigt.",
+    "en": "At least 8 characters. Changing or disabling requires the current password."
+  },
+  "Löschschutz aktiviert.": {
+    "de": "Löschschutz aktiviert.",
+    "en": "Deletion protection enabled."
+  },
+  "Löschschutz deaktiviert.": {
+    "de": "Löschschutz deaktiviert.",
+    "en": "Deletion protection disabled."
+  },
+  "Die Kennwörter stimmen nicht überein.": {
+    "de": "Die Kennwörter stimmen nicht überein.",
+    "en": "The passwords do not match."
+  },
+  "Löschschutz konnte nicht geladen werden.": {
+    "de": "Löschschutz konnte nicht geladen werden.",
+    "en": "Could not load deletion protection."
+  },
+  "Löschkennwort erforderlich.": {
+    "de": "Löschkennwort erforderlich.",
+    "en": "Deletion password required."
+  },
+  "Löschkennwort ist falsch.": {
+    "de": "Löschkennwort ist falsch.",
+    "en": "Incorrect deletion password."
+  },
+  "Das neue Kennwort braucht 8 bis 256 Zeichen.": {
+    "de": "Das neue Kennwort braucht 8 bis 256 Zeichen.",
+    "en": "The new password must contain 8 to 256 characters."
+  },
+  "Zu viele Fehlversuche. Bitte in einer Minute erneut versuchen.": {
+    "de": "Zu viele Fehlversuche. Bitte in einer Minute erneut versuchen.",
+    "en": "Too many failed attempts. Try again in one minute."
+  },
+  "Löschschutz ist nicht lesbar. Löschen bleibt gesperrt.": {
+    "de": "Löschschutz ist nicht lesbar. Löschen bleibt gesperrt.",
+    "en": "Deletion protection could not be read. Deletion remains blocked."
+  },
+  "Bestätigen": {
+    "de": "Bestätigen",
+    "en": "Confirm"
+  },
+  "Entfernte Inhalte bestätigen": {
+    "de": "Entfernte Inhalte bestätigen",
+    "en": "Confirm removed content"
+  },
+  "Diese Änderung entfernt Schritte oder Dateizuordnungen. Zum Speichern ist das Löschkennwort erforderlich.": {
+    "de": "Diese Änderung entfernt Schritte oder Dateizuordnungen. Zum Speichern ist das Löschkennwort erforderlich.",
+    "en": "This change removes steps or file associations. Saving requires the deletion password."
+  },
+  "Schritt löschen?": {
+    "de": "Schritt löschen?",
+    "en": "Delete step?"
+  },
+  "Der aktuelle Prozess wird gespeichert und dieser Schritt entfernt. Die Originalaufnahme bleibt erhalten.": {
+    "de": "Der aktuelle Prozess wird gespeichert und dieser Schritt entfernt. Die Originalaufnahme bleibt erhalten.",
+    "en": "The current process will be saved and this step removed. The original recording is retained."
+  },
+  "Anhang löschen?": {
+    "de": "Anhang löschen?",
+    "en": "Delete attachment?"
+  },
+  "Anhang löschen": {
+    "de": "Anhang löschen",
+    "en": "Delete attachment"
+  },
+  "Anhang gelöscht": {
+    "de": "Anhang gelöscht",
+    "en": "Attachment deleted"
+  },
+  "Entfernt den Anhang aus allen Schritten dieses Prozesses und speichert die aktuellen Änderungen. Die Ursprungsdatei bleibt unverändert. Eine lokale Wiederherstellungskopie bleibt erhalten.": {
+    "de": "Entfernt den Anhang aus allen Schritten dieses Prozesses und speichert die aktuellen Änderungen. Die Ursprungsdatei bleibt unverändert. Eine lokale Wiederherstellungskopie bleibt erhalten.",
+    "en": "Removes the attachment from all steps in this process and saves current changes. The original imported file is unchanged. A local recovery copy is retained."
+  },
+  "Aufnahme endgültig löschen?": {
+    "de": "Aufnahme endgültig löschen?",
+    "en": "Permanently delete recording?"
+  },
+  "Aufnahme löschen": {
+    "de": "Aufnahme löschen",
+    "en": "Delete recording"
+  },
+  "Löscht diese Aufnahme mit allen Schritten, Videos, Sprachaufnahmen und Anhängen endgültig. Ungespeicherte Änderungen dieser Aufnahme gehen ebenfalls verloren.": {
+    "de": "Löscht diese Aufnahme mit allen Schritten, Videos, Sprachaufnahmen und Anhängen endgültig. Ungespeicherte Änderungen dieser Aufnahme gehen ebenfalls verloren.",
+    "en": "Permanently deletes this recording and all its steps, videos, voice recordings and attachments. Unsaved changes to this recording are also lost."
+  },
+  "Ein Vorgang läuft noch. Bitte vor dem Löschen abschließen.": {
+    "de": "Ein Vorgang läuft noch. Bitte vor dem Löschen abschließen.",
+    "en": "An operation is still running. Finish it before deleting."
+  },
+  "Der Prozess wird gerade gespeichert. Bitte erneut versuchen.": {
+    "de": "Der Prozess wird gerade gespeichert. Bitte erneut versuchen.",
+    "en": "The process is being saved. Please try again."
+  },
+  "Diktieren": {
+    "de": "Diktieren",
+    "en": "Dictate"
+  },
+  "Windows-Diktat": {
+    "de": "Windows-Diktat",
+    "en": "Windows voice typing"
+  },
+  "Windows-Diktat starten": {
+    "de": "Windows-Diktat starten",
+    "en": "Start Windows voice typing"
+  },
+  "Windows schreibt das Gesprochene direkt in dieses Feld. Es entsteht keine Audiodatei im Studio.": {
+    "de": "Windows schreibt das Gesprochene direkt in dieses Feld. Es entsteht keine Audiodatei im Studio.",
+    "en": "Windows writes speech directly into this field. No audio file is created in Studio."
+  },
+  "Die Windows-Spracheingabe verwendet Microsofts Online-Spracherkennung. Internet und ein eingerichtetes Mikrofon sind erforderlich. Die Diktatsprache folgt der Windows-Eingabesprache.": {
+    "de": "Die Windows-Spracheingabe verwendet Microsofts Online-Spracherkennung. Internet und ein eingerichtetes Mikrofon sind erforderlich. Die Diktatsprache folgt der Windows-Eingabesprache.",
+    "en": "Windows voice typing uses Microsoft online speech recognition. An internet connection and a configured microphone are required. Dictation follows the Windows input language."
+  },
+  "Im Textfeld Windows + H drücken.": {
+    "de": "Im Textfeld Windows + H drücken.",
+    "en": "Press Windows + H in the text field."
+  },
+  "Windows-Diktat konnte nicht geöffnet werden. Im Textfeld Windows + H drücken.": {
+    "de": "Windows-Diktat konnte nicht geöffnet werden. Im Textfeld Windows + H drücken.",
+    "en": "Could not open Windows voice typing. Press Windows + H in the text field."
+  },
+  "Bitte das Textfeld im Studio aktivieren und erneut versuchen.": {
+    "de": "Bitte das Textfeld im Studio aktivieren und erneut versuchen.",
+    "en": "Focus the text field in Studio and try again."
+  },
+  "Windows-Diktat ist nur unter Windows verfügbar.": {
+    "de": "Windows-Diktat ist nur unter Windows verfügbar.",
+    "en": "Windows voice typing is only available on Windows."
+  },
+  "Tasten loslassen und Diktieren erneut starten.": {
+    "de": "Tasten loslassen und Diktieren erneut starten.",
+    "en": "Release all keys and start dictation again."
+  },
+  "Werkzeuge für den gesamten Prozess": {
+    "de": "Werkzeuge für den gesamten Prozess",
+    "en": "Tools for the whole process"
+  },
+  "Prozessaktionen": {
+    "de": "Prozessaktionen",
+    "en": "Process actions"
+  },
+  "Sprache des Skills": {
+    "de": "Sprache des Skills",
+    "en": "Skill language"
+  },
+  "Wie Programmeinstellung": {
+    "de": "Wie Programmeinstellung",
+    "en": "Follow app language"
+  },
+  "Bearbeiteten Skill durch eine neue Vorlage ersetzen?": {
+    "de": "Bearbeiteten Skill durch eine neue Vorlage ersetzen?",
+    "en": "Replace the edited skill with a new template?"
+  },
+  "Die Sprache gilt für die Skill-Vorlage und neue KI-Vorschläge. Eigene Prozessinhalte werden lokal unverändert übernommen. Eine vollständige Übersetzung ist über „Skill mit KI überarbeiten“ möglich.": {
+    "de": "Die Sprache gilt für die Skill-Vorlage und neue KI-Vorschläge. Eigene Prozessinhalte werden lokal unverändert übernommen. Eine vollständige Übersetzung ist über „Skill mit KI überarbeiten“ möglich.",
+    "en": "The language applies to the skill template and new AI suggestions. Your process content stays unchanged locally. Use “Refine skill with AI” for a full translation."
+  },
+  "Projekte": {
+    "de": "Projekte",
+    "en": "Projects"
+  },
+  "Projekte suchen": {
+    "de": "Projekte suchen",
+    "en": "Search projects"
+  },
+  "Keine passenden Projekte.": {
+    "de": "Keine passenden Projekte.",
+    "en": "No matching projects."
+  },
+  "Noch keine Projekte.": {
+    "de": "Noch keine Projekte.",
+    "en": "No projects yet."
+  },
+  "Prozessschritte": {
+    "de": "Prozessschritte",
+    "en": "Process steps"
+  },
+  "Wähle ein Projekt aus.": {
+    "de": "Wähle ein Projekt aus.",
+    "en": "Select a project."
+  },
+  "Hellgrün": {
+    "de": "Hellgrün",
+    "en": "Light green"
+  },
+  "Gelb": {
+    "de": "Gelb",
+    "en": "Yellow"
+  },
+  "Neuen Prozess anlegen": {
+    "de": "Neuen Prozess anlegen",
+    "en": "Create a new process"
+  },
+  "Ungespeicherte Änderungen verwerfen und neuen Prozess anlegen?": {
+    "de": "Ungespeicherte Änderungen verwerfen und neuen Prozess anlegen?",
+    "en": "Discard unsaved changes and create a new process?"
+  },
+  "Öffne eine eigene Aufnahme aus der Seitenleiste oder lege einen leeren Prozess an.": {
+    "de": "Öffne eine eigene Aufnahme aus der Seitenleiste oder lege einen leeren Prozess an.",
+    "en": "Open your own recording from the sidebar or create an empty process."
+  },
+  "Ein neuer Prozess startet leer. Aufnahme und KI-Analyse startest du selbst.": {
+    "de": "Ein neuer Prozess startet leer. Aufnahme und KI-Analyse startest du selbst.",
+    "en": "A new process starts empty. You start recording and AI analysis yourself."
+  }
+}

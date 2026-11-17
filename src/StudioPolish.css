@@ -1,0 +1,126 @@
+/* Consistent spacing, including when the Studio occupies only part of a native window. */
+.workspace-studio { container: studio-pane / inline-size; }
+.studio { grid-template-columns: 216px minmax(0, 1fr); }
+.studio-main { width: 100%; max-width: 1320px; margin-inline: auto; padding: 32px; }
+.studio-sidebar { padding: 28px 16px; }
+.studio-top { display: grid; grid-template-columns: minmax(160px, 1fr) minmax(200px, 240px) auto; gap: 24px; align-items: end; margin-bottom: 24px; }
+.studio-top > .studio-config-button { width: auto; min-width: 152px; margin: 0; }
+.studio-window-mode { width: 100%; margin: 0; }
+.studio .studio-window-mode label { gap: 8px; }
+.studio .studio-window-mode select { width: 100%; margin: 0; }
+.studio-status { min-height: 32px; gap: 16px; margin-bottom: 24px; }
+.studio-document { padding: 24px; margin-bottom: 28px; }
+.studio-title-row { gap: 24px; }
+.studio-intent { margin-top: 20px; }
+.studio-editor-grid { gap: 24px; }
+.studio-step-detail { padding: 24px; }
+.studio-step-detail > .studio-section-head { gap: 16px; margin-bottom: 24px; }
+.studio-step-detail > label { margin-bottom: 24px; }
+.studio-step-scroll { padding: 12px; }
+.studio button.studio-step { gap: 12px; padding: 14px 12px; margin-bottom: 8px; }
+.studio-step strong { font-size: 14px; line-height: 21px; }
+.studio-step small { line-height: 18px; }
+.studio-step-organization { grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 12px; margin-bottom: 24px; padding-bottom: 20px; border-bottom: 1px solid #ebebeb; }
+.studio-step-organization button { padding: 12px 16px; }
+.studio-frame { margin: 20px 0 24px; }
+.studio-frame-empty { padding: 28px 20px; }
+.studio-context > summary, .studio-supplements > summary { gap: 12px; min-height: 64px; }
+.studio-context .studio-reason-grid { gap: 20px; padding: 8px 0 20px; }
+.studio-supplement-body { padding: 8px 0 20px; }
+.studio-supplement-body > label { margin-bottom: 20px; }
+.studio-ai { margin-top: 24px; }
+.studio-ai-summary { padding: 20px 24px; }
+.studio-ai-body { padding: 4px 24px 24px; }
+.studio-ai-actions, .studio-material-actions, .studio-image-tools, .studio-image-actions, .studio-knowledge-actions { gap: 12px; row-gap: 16px; }
+.studio-knowledge-actions { margin: 0; }
+.studio-knowledge-actions > button { min-width: 160px; }
+.studio-material-actions > button { white-space: normal; padding: 10px 16px; }
+.studio-material-card { padding: 20px; }
+.studio-material-card .studio-material-actions { margin-top: 16px; }
+.studio-suggestion > button { margin: 12px 12px 0 0; white-space: normal; }
+.studio-footer { gap: 16px; margin-top: 24px; padding-top: 8px; }
+
+/* Dialog headers, fields and action groups share a predictable vertical rhythm. */
+.studio .studio-modal { padding: 28px; width: min(720px, calc(100vw - 48px)); max-width: none; max-height: calc(100dvh - 48px); scrollbar-gutter: stable; }
+.studio .studio-modal.studio-provider-settings { width: min(760px, calc(100vw - 48px)); }
+.studio .studio-modal.studio-knowledge { width: min(860px, calc(100vw - 48px)); }
+.studio .studio-modal.studio-image-editor { width: min(1100px, calc(100vw - 48px)); }
+.studio-modal > .studio-section-head { align-items: center; gap: 20px; padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid #ebebeb; }
+.studio-modal > .studio-section-head h2 { margin: 4px 0 0; }
+.studio-modal > .studio-section-head > button { flex-shrink: 0; padding: 10px 16px; }
+.studio-modal > h2 { margin: 0 0 16px; }
+.studio .studio-modal > label { margin: 0 0 24px; }
+.studio .studio-modal label small { margin-top: 10px; line-height: 20px; }
+.studio-modal > p { margin: 16px 0 24px; line-height: 22px; }
+.studio .studio-modal label.studio-consent { gap: 14px; padding: 14px 0; margin: 12px 0; line-height: 21px; }
+.studio-modal-actions { gap: 16px; margin-top: 28px; padding-top: 24px; border-top: 1px solid #ebebeb; }
+.studio .studio-modal-actions > button { flex: 0 1 auto; min-width: 144px; padding: 12px 20px; }
+.studio .studio-modal-actions > .studio-primary { margin-left: auto; }
+.studio-modal .studio-material-actions { margin: 16px 0; }
+.studio-modal .studio-ai-actions { margin-top: 20px; }
+.studio .studio-modal > .studio-primary { margin-top: 20px; }
+.studio-knowledge .studio-modal-actions { margin-top: 20px; }
+.studio-interview-question { background: #f7f7f7; border-radius: 14px; padding: 20px 24px; margin: 24px 0; }
+.studio-interview-question h3 { font-size: 18px; font-weight: 500; line-height: 28px; margin: 8px 0 0; color: #212121; }
+.studio-knowledge .studio-supplements { margin: 24px 0; }
+.studio-knowledge-ai { margin-top: 32px; padding-top: 20px; }
+.studio-provider-description { line-height: 22px; margin: 12px 0 24px; }
+.studio-provider-discovery, .studio-provider-test { border: 1px solid #ebebeb; border-radius: 14px; padding: 0; margin: 0 0 24px; background: #fff; }
+.studio-provider-discovery > summary, .studio-provider-test > summary { padding: 18px 20px; cursor: pointer; font-size: 14px; font-weight: 500; line-height: 22px; }
+.studio-provider-discovery > summary small { display: block; margin: 4px 0 0 16px; font-size: 12px; font-weight: 400; color: #666; }
+.studio-discovery-body, .studio-provider-test-body { padding: 0 20px 20px; }
+.studio-discovery-body > p, .studio-provider-test-body > p { line-height: 21px; margin: 0 0 20px; font-size: 13px; }
+.studio-discovery-body > button { margin-bottom: 16px; }
+.studio-discovery-body .studio-provider-description { background: transparent; padding: 0; margin: 0; }
+.studio-server-results { display: grid; gap: 12px; list-style: none; padding: 0; margin: 20px 0 0; }
+.studio-server-results > li { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; padding: 16px; border: 1px solid #ebebeb; border-radius: 12px; background: #f7f7f7; font-size: 12px; overflow-wrap: anywhere; }
+.studio-server-results > li p { margin: 0; line-height: 20px; }
+.studio-server-results > li button { margin-top: 4px; }
+.studio-provider-test { margin-top: 24px; }
+.studio-export-summary { padding: 20px; margin: 24px 0; gap: 8px; }
+.studio-export-formats { margin-top: 28px; padding-top: 16px; }
+.studio-stg section { margin-top: 28px; padding-top: 24px; }
+.studio-stg h3 { margin: 0 0 20px; }
+.studio-stg details { margin-top: 20px; }
+
+@container studio-pane (max-width: 1240px) {
+  .studio-top { grid-template-columns: minmax(0, 1fr) auto; gap: 20px; }
+  .studio-top > div:first-child { grid-column: 1 / -1; }
+  .studio-main { padding: 24px; }
+  .studio-editor-grid { grid-template-columns: minmax(0, 1fr); }
+  .studio-step-scroll { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+  .studio button.studio-step { height: 100%; margin: 0; }
+  .studio-step-list .studio-section-head { padding: 12px 16px; }
+}
+@container studio-pane (max-width: 780px) {
+  .studio { grid-template-columns: minmax(0, 1fr); }
+  .studio-sidebar { padding: 20px 24px; border-right: 0; border-bottom: 1px solid #ebebeb; }
+  .studio-brand { display: flex; gap: 16px; align-items: center; margin-bottom: 16px; padding-bottom: 16px; }
+  .studio-brand .studio-company { margin: 0; flex-shrink: 0; }
+  .studio-brand strong { font-size: 20px; }
+  .studio-brand small, .studio-local { display: none; }
+  .studio-sessions { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+  .studio-sessions button { margin: 0; }
+  .studio-more { margin-top: 16px; }
+  .studio-title-row { align-items: flex-start; flex-wrap: wrap; gap: 16px; }
+  .studio-title-row > div { flex-basis: 100%; }
+  .studio-title-row > .studio-primary { margin-left: auto; }
+  .studio-document, .studio-step-detail { padding: 20px; }
+}
+@media (max-width: 1280px) { .studio-workspace-integrated { grid-template-columns: 320px minmax(0, 1fr); } }
+@media (max-width: 760px) { .studio-workspace-integrated { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 600px) {
+  .studio .studio-modal { width: calc(100vw - 24px); max-height: calc(100dvh - 24px); padding: 20px; }
+  .studio .studio-modal-actions > button { flex: 1 1 160px; min-width: 0; }
+  .studio .studio-modal-actions > .studio-primary { margin-left: 0; }
+  .studio-modal .studio-material-actions > button { flex: 1 1 160px; min-width: 0; }
+}
+.hud { gap: 16px; padding: 20px; }
+.hud .input-capture-options { padding: 12px 16px; }
+.hud .input-capture-options label { margin: 16px 0 8px; }
+.hud .input-capture-options fieldset { padding: 12px 0; }
+.hud .narrate-settings label { margin-bottom: 16px; }
+.workspace-recorder .hud { padding: 24px 20px; }
+.studio-provider-advanced { border-top: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb; padding: 0; margin: 24px 0; }
+.studio-provider-advanced > summary { padding: 18px 0; min-height: 56px; cursor: pointer; font-size: 14px; font-weight: 500; }
+.studio-provider-advanced > label { margin: 8px 0 24px; }
