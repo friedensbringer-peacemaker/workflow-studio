@@ -4,7 +4,7 @@ Dieses Repository enthält die neutrale Studio-Weiterentwicklung. Upstream-Downl
 
 ## Voraussetzungen
 
-- Git und Zugriff auf dieses private Repository.
+- Git zum Klonen dieses öffentlichen Repositorys; dafür ist keine GitHub-Anmeldung erforderlich.
 - Node.js >=24.19.0 und <25, npm >=11.17.0.
 - Windows 11 x64 für den hier verwendeten Studio-Startweg. Weitere Plattformen benötigen eine eigene Abnahme.
 
